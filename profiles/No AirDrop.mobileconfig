@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.453F2DD6-4D96-4827-98EC-2AC4A37F9B59</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>4714C77E-2D6F-430C-9611-D2111536850F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirDrop</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>DisableAirDrop</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.NetworkBrowser.B050E67E-DA0F-4DBC-944D-7D6F8E8D9F76</string>
+			<key>PayloadType</key>
+			<string>com.apple.NetworkBrowser</string>
+			<key>PayloadUUID</key>
+			<string>B050E67E-DA0F-4DBC-944D-7D6F8E8D9F76</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DiscoverableMode</key>
+			<string>Off</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.sharingd.C940B6BC-967A-4C6A-B40B-F9D69F29186F</string>
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+			<key>PayloadUUID</key>
+			<string>C940B6BC-967A-4C6A-B40B-F9D69F29186F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>No Air Drop</string>
+	<key>PayloadDisplayName</key>
+	<string>No AirDrop</string>
+	<key>PayloadIdentifier</key>
+	<string>no-air-drop.1CB44D08-39A3-48D4-92F5-6FDA6274CBF3</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>AAECDE36-EF61-4C26-9FDB-2B2129E93969</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

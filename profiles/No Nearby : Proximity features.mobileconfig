@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.D2FB3813-88AF-458C-9B37-608E773BC757</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>700013D0-12CE-45FB-9841-43780932AD49</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirPrintiBeaconDiscovery</key>
+			<false/>
+			<key>allowAutoUnlock</key>
+			<false/>
+			<key>allowPairedWatch</key>
+			<false/>
+			<key>allowPasswordProximityRequests</key>
+			<false/>
+			<key>allowPasswordSharing</key>
+			<false/>
+			<key>allowProximitySetupToNewDevice</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>-disallow Apple Watch to auto unlock device
+-disallow proximity based password sharing requests
+-disallow password sharing
+-disallow discovery of AirPrint printers using iBeacons
+-disallow pairing with Apple Watch [iOS payload]
+-disallow setting up new nearby iOS devies [iOS payload]</string>
+	<key>PayloadDisplayName</key>
+	<string>No Nearby / Proximity features</string>
+	<key>PayloadIdentifier</key>
+	<string>no-nearby.136BF112-3D4B-486C-9A00-3724645A32D4</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5DF24D99-957F-43A3-B0D0-C6DEB825686D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

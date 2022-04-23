@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NoMulticastAdvertisements</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Bonjour</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mDNSResponder.2841B012-920A-4B24-A1C3-28874CBC77FC</string>
+			<key>PayloadType</key>
+			<string>com.apple.mDNSResponder</string>
+			<key>PayloadUUID</key>
+			<string>2841B012-920A-4B24-A1C3-28874CBC77FC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>GKAutoRearm</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Security</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.42ABFCB4-4020-4E55-A1A5-2E0CE108526D</string>
+			<key>PayloadType</key>
+			<string>com.apple.security</string>
+			<key>PayloadUUID</key>
+			<string>42ABFCB4-4020-4E55-A1A5-2E0CE108526D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AllowPreReleaseInstallation</key>
+			<false/>
+			<key>AutomaticDownload</key>
+			<false/>
+			<key>AutomaticallyInstallMacOSUpdates</key>
+			<false/>
+			<key>ConfigDataInstall</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Software Update</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SoftwareUpdate.6DFB6C75-70ED-413C-9FD1-CC824C1D80B0</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>69EC05D6-64F7-4E85-8CC9-DF51F5775465</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SUDisableEVCheck</key>
+			<true/>
+			<key>restrict-software-update-require-admin-to-install</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AllowIdentifiedDevelopers</key>
+			<false/>
+			<key>EnableAssessment</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>System Policy: Control</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.systempolicy.control.50010DD6-0CB9-4F47-B409-7F3856B39D2E</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempolicy.control</string>
+			<key>PayloadUUID</key>
+			<string>87F6B134-39B3-43FC-B6FF-616E8BBB220E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.screensaver.6F5B8BA0-BCBC-48FE-A6B1-3C33565B70F7</string>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>AC06C742-DA41-4323-888D-B3267908E031</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>askForPassword</key>
+			<true/>
+			<key>askForPasswordDelay</key>
+			<integer>2147483647</integer>
+			<key>moduleName</key>
+			<string>Flurry</string>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Siri</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Siri.302B52F9-39A5-44DA-8357-6DA0150C0481</string>
+			<key>PayloadType</key>
+			<string>com.apple.Siri</string>
+			<key>PayloadUUID</key>
+			<string>302B52F9-39A5-44DA-8357-6DA0150C0481</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>StatusMenuVisible</key>
+			<false/>
+			<key>UserHasDeclinedEnable</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AutoFillCreditCardData</key>
+			<true/>
+			<key>AutoFillFromAddressBook</key>
+			<false/>
+			<key>AutoFillMiscellaneousForms</key>
+			<false/>
+			<key>AutoFillPasswords</key>
+			<true/>
+			<key>AutoOpenSafeDownloads</key>
+			<false/>
+			<key>BlockStoragePolicy</key>
+			<integer>3</integer>
+			<key>BookmarksCollectionsIncludeAddressBook</key>
+			<false/>
+			<key>BookmarksCollectionsIncludeRendezvous</key>
+			<false/>
+			<key>CanPromptForPushNotifications</key>
+			<false/>
+			<key>DefaultBrowserPromptingState2</key>
+			<integer>1</integer>
+			<key>DefaultBrowserPromptingState3</key>
+			<integer>2</integer>
+			<key>DidDisableIndividualExtensionsAfterRemovingOnOffSwitchIfNecessary</key>
+			<true/>
+			<key>DidShowWhatsNewInSafari</key>
+			<true/>
+			<key>DownloadsClearingPolicy</key>
+			<integer>1</integer>
+			<key>NewTabBehavior</key>
+			<integer>1</integer>
+			<key>NewWindowBehavior</key>
+			<integer>0</integer>
+			<key>PayloadDisplayName</key>
+			<string>Safari</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Safari.D8E6CF49-085B-4267-B340-A0577845DC23</string>
+			<key>PayloadType</key>
+			<string>com.apple.Safari</string>
+			<key>PayloadUUID</key>
+			<string>D8E6CF49-085B-4267-B340-A0577845DC23</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled</key>
+			<false/>
+			<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2PrivateBrowsingEnabled</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SmartCard</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.smartcard.20E0C220-FA7E-4301-8DED-9C43702BDF14</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadUUID</key>
+			<string>F6F35102-AD1D-4B7D-BA08-D72E5F459408</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowUnmappedUsers</key>
+			<integer>0</integer>
+			<key>oneCardPerUser</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AllowSigned</key>
+			<false/>
+			<key>AllowSignedApp</key>
+			<false/>
+			<key>EnableFirewall</key>
+			<true/>
+			<key>EnableLogging</key>
+			<true/>
+			<key>EnableStealthMode</key>
+			<true/>
+			<key>LoggingOption</key>
+			<string>detail</string>
+			<key>PayloadDisplayName</key>
+			<string>Firewall #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.firewall.213718F2-FF88-4FC2-B604-6842CADB6617</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+			<key>PayloadUUID</key>
+			<string>CB3570F7-E876-40D8-8A7D-BD0FDEB54B6C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.7E5A215C-D43D-4731-B245-027C3154712C</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>3381C04E-9CAE-4CB0-97D4-13F41CE4ADA2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirPrintiBeaconDiscovery</key>
+			<false/>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
+			<key>allowAssistant</key>
+			<false/>
+			<key>allowAutoCorrection</key>
+			<false/>
+			<key>allowAutoUnlock</key>
+			<false/>
+			<key>allowCloudBTMM</key>
+			<false/>
+			<key>allowCloudFMM</key>
+			<false/>
+			<key>allowCloudPrivateRelay</key>
+			<false/>
+			<key>allowContentCaching</key>
+			<false/>
+			<key>allowDefinitionLookup</key>
+			<false/>
+			<key>allowDeviceNameModification</key>
+			<false/>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowFindMyDevice</key>
+			<false/>
+			<key>allowFindMyFriends</key>
+			<false/>
+			<key>allowHostPairing</key>
+			<false/>
+			<key>allowMailPrivacyProtection</key>
+			<false/>
+			<key>allowOTAPKIUpdates</key>
+			<false/>
+			<key>allowPairedWatch</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+			<key>allowPhotoStream</key>
+			<false/>
+			<key>allowProximitySetupToNewDevice</key>
+			<false/>
+			<key>allowRemoteAppPairing</key>
+			<false/>
+			<key>allowSharedDeviceTemporarySession</key>
+			<false/>
+			<key>allowSiriServerLogging</key>
+			<false/>
+			<key>allowSpellCheck</key>
+			<false/>
+			<key>allowSpotlightInternetResults</key>
+			<false/>
+			<key>allowiTunesFileSharing</key>
+			<false/>
+			<key>enforcedFingerprintTimeout</key>
+			<integer>1</integer>
+			<key>forceAirPrintTrustedTLSRequirement</key>
+			<true/>
+			<key>forceAutomaticDateAndTime</key>
+			<true/>
+			<key>forceLimitAdTracking</key>
+			<true/>
+			<key>forceOnDeviceOnlyDictation</key>
+			<true/>
+			<key>forceOnDeviceOnlyTranslation</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.0748F4B0-498F-48E3-952C-8CAD430E2730</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>0748F4B0-498F-48E3-952C-8CAD430E2730</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxFailedAttempts</key>
+			<integer>4</integer>
+			<key>maxGracePeriod</key>
+			<integer>0</integer>
+			<key>maxInactivity</key>
+			<integer>1</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>15</integer>
+			<key>minutesUntilFailedLoginReset</key>
+			<integer>1</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Assistant Enabled</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Assistant</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.assistant.support.5509B92C-E97C-401F-963B-876BA6CF26C5</string>
+			<key>PayloadType</key>
+			<string>com.apple.assistant.support</string>
+			<key>PayloadUUID</key>
+			<string>5509B92C-E97C-401F-963B-876BA6CF26C5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Siri Data Sharing Opt-In Status</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>DestroyFVKeyOnStandby</key>
+			<true/>
+			<key>DisableGuestAccount</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.F3B71B25-B5B5-44E1-BBCE-65BB5BBDC1C5</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>0815D098-8868-4BBA-AFC8-1CEC8F11F93A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>15</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>5</integer>
+			</dict>
+			<key>dontAllowFDEDisable</key>
+			<true/>
+			<key>timeServer</key>
+			<string>nl.pool.ntp.org</string>
+			<key>timeZone</key>
+			<string>Europe/Amsterdam</string>
+		</dict>
+		<dict>
+			<key>AppleShowAllExtensions</key>
+			<true/>
+			<key>AppleShowScrollBars</key>
+			<string>Automatic</string>
+			<key>NSDocumentSaveNewDocumentsToCloud</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Global Preferences</string>
+			<key>PayloadIdentifier</key>
+			<string>.GlobalPreferences.1C33EE7C-48C2-4991-AE0C-DB8AB17EE04B</string>
+			<key>PayloadType</key>
+			<string>.GlobalPreferences</string>
+			<key>PayloadUUID</key>
+			<string>58C27601-E316-41A1-826E-3BDA84AC873E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>com.apple.autologout.AutoLogOutDelay</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>AdminHostInfo</key>
+			<string>System Information</string>
+			<key>ChangePasswordDisabled</key>
+			<true/>
+			<key>EnableExternalAccounts</key>
+			<false/>
+			<key>LocalUserLoginEnabled</key>
+			<true/>
+			<key>LoginwindowText</key>
+			<string>Let's see if you are welcome here, whoever you are...</string>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.7F44BA33-1235-4825-99B3-AA53C43C585C</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>D35E8A17-6017-4644-B5EA-DD71EC1F7F74</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RetriesUntilHint</key>
+			<integer>0</integer>
+			<key>SHOWFULLNAME</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Media Sharing</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.preferences.sharing.SharingPrefsExtension.E190D4CA-D410-438B-86D0-B0B7F20DFE0D</string>
+			<key>PayloadType</key>
+			<string>com.apple.preferences.sharing.SharingPrefsExtension</string>
+			<key>PayloadUUID</key>
+			<string>E190D4CA-D410-438B-86D0-B0B7F20DFE0D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>homeSharingUIStatus</key>
+			<integer>0</integer>
+			<key>legacySharingUIStatus</key>
+			<integer>0</integer>
+			<key>mediaSharingUIStatus</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Ad Tracking</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.AdLib.1E24FA35-55BA-4B95-BD18-6BE0456F0C21</string>
+			<key>PayloadType</key>
+			<string>com.apple.AdLib</string>
+			<key>PayloadUUID</key>
+			<string>1E24FA35-55BA-4B95-BD18-6BE0456F0C21</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
+			<key>forceLimitAdTracking</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>DisableSoftwareUpdateNotifications</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>App Store settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.appstore.E0411530-D2DF-4E15-A5CE-4B61586CBD19</string>
+			<key>PayloadType</key>
+			<string>com.apple.appstore</string>
+			<key>PayloadUUID</key>
+			<string>E0411530-D2DF-4E15-A5CE-4B61586CBD19</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>restrict-store-require-admin-to-install</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dock.9B5EB443-8536-41E6-B377-D2E66EF738D7</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>9B5EB443-8536-41E6-B377-D2E66EF738D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>launchanim</key>
+			<false/>
+			<key>magnify-immutable</key>
+			<true/>
+			<key>magsize-immutable</key>
+			<true/>
+			<key>mineffect</key>
+			<string>Genie Effect</string>
+			<key>mineffect-immutable</key>
+			<true/>
+			<key>minimize-to-application</key>
+			<true/>
+			<key>minintoapp-immutable</key>
+			<true/>
+			<key>show-recents</key>
+			<false/>
+			<key>size-immutable</key>
+			<true/>
+			<key>wvous-bl-corner</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>FXDefaultSearchScope</key>
+			<string>SCcf</string>
+			<key>FXEnableExtensionChangeWarning</key>
+			<false/>
+			<key>FXPreferredViewStyle</key>
+			<string>Nlsv</string>
+			<key>FXRemoveOldTrashItems</key>
+			<false/>
+			<key>FinderSpawnTab</key>
+			<true/>
+			<key>NewWindowTarget</key>
+			<string>PfHm</string>
+			<key>PayloadDisplayName</key>
+			<string>Finder</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.finder.69118964-80DD-4955-A57C-47934BA2A937</string>
+			<key>PayloadType</key>
+			<string>com.apple.finder</string>
+			<key>PayloadUUID</key>
+			<string>1248285C-540A-4CD4-AD48-D3EB6B7C8CF6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ShowExternalHardDrivesOnDesktop</key>
+			<false/>
+			<key>ShowRecentTags</key>
+			<false/>
+			<key>ShowRemovableMediaOnDesktop</key>
+			<false/>
+			<key>ShowSidebar</key>
+			<true/>
+			<key>_FXSortFoldersFirst</key>
+			<true/>
+			<key>_FXSortFoldersFirstOnDesktop</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Screencapture</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.screencapture.F07F06BD-4070-4D35-B952-F6D8D051A460</string>
+			<key>PayloadType</key>
+			<string>com.apple.screencapture</string>
+			<key>PayloadUUID</key>
+			<string>F07F06BD-4070-4D35-B952-F6D8D051A460</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>disable-shadow</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AutoSubmit</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Submit Diagnostic Information</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SubmitDiagInfo.2C9088B7-0A96-4CC7-9036-EFB8161779F7</string>
+			<key>PayloadType</key>
+			<string>com.apple.SubmitDiagInfo</string>
+			<key>PayloadUUID</key>
+			<string>2C9088B7-0A96-4CC7-9036-EFB8161779F7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>HiddenPreferencePanes</key>
+			<array>
+				<string>com.apple.preference.mouse</string>
+				<string>com.apple.preference.speech</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.systempreferences.FD103FC7-0C4D-4AC6-87B5-552A2FA76EAC</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>FD103FC7-0C4D-4AC6-87B5-552A2FA76EAC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DoNotOfferNewDisksForBackup</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Time Machine</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.TimeMachine.252DE54D-2C9E-48DE-BFAE-C8EC4A860919</string>
+			<key>PayloadType</key>
+			<string>com.apple.TimeMachine</string>
+			<key>PayloadUUID</key>
+			<string>252DE54D-2C9E-48DE-BFAE-C8EC4A860919</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>ShareKit</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ShareKitHelper.5060735C-ABE3-4F0B-8DBE-DAA00462F78A</string>
+			<key>PayloadType</key>
+			<string>com.apple.ShareKitHelper</string>
+			<key>PayloadUUID</key>
+			<string>5060735C-ABE3-4F0B-8DBE-DAA00462F78A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SHKDeniedShareServices</key>
+			<array>
+				<string>com.apple.share.Facebook</string>
+				<string>com.apple.share.LinkedIn.post</string>
+				<string>com.apple.share.Video</string>
+				<string>com.apple.share.SinaWeibo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DisableFMMiCloudSetting</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>iCloud Find My</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.icloud.managed.17A6FAFD-949B-45D1-BAD1-C599A018FAF0</string>
+			<key>PayloadType</key>
+			<string>com.apple.icloud.managed</string>
+			<key>PayloadUUID</key>
+			<string>17A6FAFD-949B-45D1-BAD1-C599A018FAF0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>CheckGrammarWithSpelling</key>
+			<false/>
+			<key>CheckSpellingWhileTyping</key>
+			<false/>
+			<key>CorrectSpellingAutomatically</key>
+			<false/>
+			<key>IgnoreHTML</key>
+			<true/>
+			<key>IgnoreRichText</key>
+			<true/>
+			<key>NSDocumentSuppressTempVersionStoreWarning</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>TextEdit</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.TextEdit.62C27C67-D40A-4986-97E7-5F8D9FD7F51B</string>
+			<key>PayloadType</key>
+			<string>com.apple.TextEdit</string>
+			<key>PayloadUUID</key>
+			<string>79F6C550-747C-4391-84CD-ECE11BFE1FA3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PlainTextEncodingForWrite</key>
+			<integer>4</integer>
+			<key>RichText</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>DisablePythonAlert</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Python</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.python.6A24EE16-65E5-4539-9C02-9B25476F7105</string>
+			<key>PayloadType</key>
+			<string>com.apple.python</string>
+			<key>PayloadUUID</key>
+			<string>6A24EE16-65E5-4539-9C02-9B25476F7105</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DSDontWriteNetworkStores</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Services</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.desktopservices.7F86F742-9441-45A6-B542-C9B87F5EFAC3</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>7F86F742-9441-45A6-B542-C9B87F5EFAC3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Restrictions
+- no Siri suggestions
+- no Find My / iCloud FindMy
+- no submitting diagnostic and usage data to Apple
+- no definition lookup
+- no iTunes File Shaing
+- no Content Caching
+- no Mail privacy protection
+- disallow discovery of AirPrint printers using iBeacons
+- disallow AirPrint to destinations with untrusted certificates
+- disallow Game Center
+- disallow iCloud Private Relay
+- disallow Apple Watch to auto-unlock device
+- enforced Finterprint Timeout: 1 hour
+
+Bonjour
+- disable Bonjour
+
+Dock
+- size slider disabled
+- magnification and magnification slider disabled
+- minimize effect: Genie
+- minimize windows into application icons enabled, the slider - disabled
+- don't animate opening applications
+- don't show recent applications in Dock
+- bottom-left hot corner action: Put Display To Sleep
+
+Energy Saver / FireVault / Time Server / Mobile Accounts / Guest Account:
+- display sleep timer while on battery: 5 (min)
+- display sleep timer while on AC: 15 (min)
+- system sleep while on AC: never
+- wake on LAN enabled while on AC
+- prevent disabling FireVault
+- prevent storing temporary FV key for Standby
+- time server: nl.pool.ntp.org
+- Time Zone: Europe/Amserdam (CET/CEST times)
+- guest account disabled
+- require admin creds for Wi-Fi power, Wi-Fi Network Change, IBSS
+
+Finder
+- don't show connected drive on Desktop
+- new Finder window shows Home Folder
+- open folders in Finder tabs instead of new windows
+- don't show warning before changing a file extension
+- don't remove old Trash items
+- keep folders on top when sorting by name and on Desktop
+- show Finder Sidebar
+- search in Current Folder
+- use List View as preferred Finder View style
+
+Firewall
+- enable
+- enable Stealth Mode
+- enable detailed logging
+- disallow signed services / apps by default
+
+Global Preferences
+- show all filename extensions
+- don't save new documemnts to iCloud
+
+Login Window
+- show additional information in the menu bar (refer to Apple docs on configuration profiles)
+- show user name and password fields instead of list of users
+- disable external accounts
+- local-only users may log in
+- allow user to change password, but don't show password hints
+
+Screencapture
+- disable Screenshot Drop Shadow
+
+Screensaver
+- require password to unlock
+- no 'require password' delay
+- module name: Flurry
+
+Security
+- Disable Gatekeeper Automatic Reenablement
+
+ShareKit
+- disable sharing to: Facebook, LinkedIn, Flickr, Vimeo, Tuduo, Youku, Sina Weibo
+
+Smart Card
+- disallow unmapped uses
+- restrict one card per user
+
+
+Software Updates
+- disable extended validation check of TLS certificates
+- don't download newly available updates in the background
+- don't automatically install macOS updates, XProtect / MRT/ Gatekeeper updates (but install
+securiy updates)
+- disallow beta releases
+- restrict app installations to Admin users
+
+System Policy: control [NOTE: may not work, so you'd need `sudo spctl --master-disable`]
+- don't enable gatekeeper
+- dont't enable Identified Developers
+
+System Preferences:
+- hide Mouse and Siri items
+
+Time Machine:
+- don't offernew disks for backup
+
+Safari:
+- hide What's New Prompt
+- new Window opens with Home Page
+- new Tabs opens empty
+- downloads clearing: when Safari quits
+- don't open "safe" downloads
+- suppress default web browser prompt and banner
+- don't show contacts and Bonjour in Bookmarks Collections
+- don't autofill web forms from contacts as well as miscellaneous forms (security reasons)
+- don't enable java
+- private browsing
+- block third party cookies
+- disable extensions immediately (refer to Apple docs on configuration profiles)
+- disallow notifications
+
+TextEdit
+- suppress temp version store warning
+- ignore rich text
+- plain text encoding for write: UTF-8
+- default format: plain text
+- ignore html
+- dont't check grammer
+- don't check spelling while typing
+- don't correct spelling automatically
+
+Python
+- disable deprecation alert
+
+Media Sharing:
+- home sharing off
+- legacy sharing off
+- media sharing off
+
+Desktop Services
+- prevent .DS_Store file creation on network volumes
+
+
+passcode (password) restrictions:
+- require
+- require alphanumeric value
+- minimum 15 characters
+- minimum 1 'complex character'
+- minimum autolock: 1 min
+- minimum grace period for device lock: 0
+- minumum number of failed attempts (before delay): 4
+- delay after failed attempts: 1 min
+
+
+
+
+The iOS payload (in practice, some bits of it might work on Apple Silicon as well; this
+is not documented and may be experienced by author as a result of some magic/existing
+bug/unwanted functionality in Apple system)
+
+- disallow Shared iPad temporary session
+- disallow voice dialing when the device is locked
+- disallow personalized advertizing
+- force limited ad tracking
+- disallow aover-the-air PKI updates
+- foce automatic date and time
+- disallow modifying device name
+- dont't allow Find My Devices and Find My Friends
+- disallow host pairing
+- disallow setting up new nearby iOS devices
+- disallow spellcheck / auto-correction
+- force on-device only translation
+- force on-device only dictation
+- disallow Apple Wallet notifications on Lock Screen
+- disallow modifying diagnostic settings
+- disallow My Photo Stream
+- disallow Siri 
+- disallow server-side logging of Siri commands
+- disallow personalized ads
+- require admin to install apps
+- disable software update notifications in AppStore
+- disable Siri and "Improve Siri&amp; Dication"
+</string>
+	<key>PayloadDisplayName</key>
+	<string>Basic Restrictions</string>
+	<key>PayloadIdentifier</key>
+	<string>basic.76DE2BC6-0A53-4B4B-9092-8B5AD330D235</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>635B531E-6841-4A01-8897-BE4AC46E43B2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
