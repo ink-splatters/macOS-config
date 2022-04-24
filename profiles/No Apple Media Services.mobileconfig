@@ -5,24 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>BKAlreadyDisplayedGDPRWelcomeExperience</key>
-			<true/>
-			<key>BKAlreadyDisplayedUbiquity</key>
-			<true/>
-			<key>BKDisableBookStorePreferenceKey</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>iBooks #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.iBooksX.544FD303-A4D5-40C8-ABA0-818C67266338</string>
-			<key>PayloadType</key>
-			<string>com.apple.iBooksX</string>
-			<key>PayloadUUID</key>
-			<string>544FD303-A4D5-40C8-ABA0-818C67266338</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
@@ -151,7 +133,7 @@ Disable in iTunes Domain:
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C6BF9C53-1D95-493B-8C6D-97647272FF85</string>
+	<string>EC0BB746-BA9B-4CF5-9422-CE937178CA3C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

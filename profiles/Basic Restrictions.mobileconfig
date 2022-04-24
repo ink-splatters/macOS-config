@@ -74,24 +74,6 @@
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>Screensaver</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.screensaver.6F5B8BA0-BCBC-48FE-A6B1-3C33565B70F7</string>
-			<key>PayloadType</key>
-			<string>com.apple.screensaver</string>
-			<key>PayloadUUID</key>
-			<string>AC06C742-DA41-4323-888D-B3267908E031</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>askForPassword</key>
-			<true/>
-			<key>askForPasswordDelay</key>
-			<integer>2147483647</integer>
-			<key>moduleName</key>
-			<string>Flurry</string>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
 			<string>Siri</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.Siri.302B52F9-39A5-44DA-8357-6DA0150C0481</string>
@@ -155,22 +137,6 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>PayloadDisplayName</key>
-			<string>SmartCard</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.smartcard.20E0C220-FA7E-4301-8DED-9C43702BDF14</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.smartcard</string>
-			<key>PayloadUUID</key>
-			<string>F6F35102-AD1D-4B7D-BA08-D72E5F459408</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowUnmappedUsers</key>
-			<integer>0</integer>
-			<key>oneCardPerUser</key>
-			<true/>
-		</dict>
-		<dict>
 			<key>AllowSigned</key>
 			<false/>
 			<key>AllowSignedApp</key>
@@ -202,7 +168,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>3381C04E-9CAE-4CB0-97D4-13F41CE4ADA2</string>
+			<string>DCA5A2E8-194B-40E3-8770-7C36481D0ED6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirPrintiBeaconDiscovery</key>
@@ -233,23 +199,17 @@
 			<false/>
 			<key>allowFindMyFriends</key>
 			<false/>
-			<key>allowHostPairing</key>
-			<false/>
 			<key>allowMailPrivacyProtection</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
 			<key>allowPairedWatch</key>
 			<false/>
-			<key>allowPassbookWhileLocked</key>
-			<false/>
 			<key>allowPhotoStream</key>
 			<false/>
 			<key>allowProximitySetupToNewDevice</key>
 			<false/>
 			<key>allowRemoteAppPairing</key>
-			<false/>
-			<key>allowSharedDeviceTemporarySession</key>
 			<false/>
 			<key>allowSiriServerLogging</key>
 			<false/>
@@ -260,7 +220,7 @@
 			<key>allowiTunesFileSharing</key>
 			<false/>
 			<key>enforcedFingerprintTimeout</key>
-			<integer>1</integer>
+			<integer>172800</integer>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
 			<key>forceAutomaticDateAndTime</key>
@@ -319,96 +279,6 @@
 			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>DestroyFVKeyOnStandby</key>
-			<true/>
-			<key>DisableGuestAccount</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.MCX.F3B71B25-B5B5-44E1-BBCE-65BB5BBDC1C5</string>
-			<key>PayloadType</key>
-			<string>com.apple.MCX</string>
-			<key>PayloadUUID</key>
-			<string>0815D098-8868-4BBA-AFC8-1CEC8F11F93A</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RequireAdminForAirPortNetworkChange</key>
-			<true/>
-			<key>RequireAdminForIBSS</key>
-			<true/>
-			<key>RequireAdminToTurnAirPortOnOff</key>
-			<true/>
-			<key>SleepDisabled</key>
-			<false/>
-			<key>com.apple.EnergySaver.portable.ACPower</key>
-			<dict>
-				<key>Display Sleep Timer</key>
-				<integer>15</integer>
-				<key>System Sleep Timer</key>
-				<integer>0</integer>
-				<key>Wake On LAN</key>
-				<integer>1</integer>
-			</dict>
-			<key>com.apple.EnergySaver.portable.BatteryPower</key>
-			<dict>
-				<key>Display Sleep Timer</key>
-				<integer>5</integer>
-			</dict>
-			<key>dontAllowFDEDisable</key>
-			<true/>
-			<key>timeServer</key>
-			<string>nl.pool.ntp.org</string>
-			<key>timeZone</key>
-			<string>Europe/Amsterdam</string>
-		</dict>
-		<dict>
-			<key>AppleShowAllExtensions</key>
-			<true/>
-			<key>AppleShowScrollBars</key>
-			<string>Automatic</string>
-			<key>NSDocumentSaveNewDocumentsToCloud</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Global Preferences</string>
-			<key>PayloadIdentifier</key>
-			<string>.GlobalPreferences.1C33EE7C-48C2-4991-AE0C-DB8AB17EE04B</string>
-			<key>PayloadType</key>
-			<string>.GlobalPreferences</string>
-			<key>PayloadUUID</key>
-			<string>58C27601-E316-41A1-826E-3BDA84AC873E</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>com.apple.autologout.AutoLogOutDelay</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>AdminHostInfo</key>
-			<string>System Information</string>
-			<key>ChangePasswordDisabled</key>
-			<true/>
-			<key>EnableExternalAccounts</key>
-			<false/>
-			<key>LocalUserLoginEnabled</key>
-			<true/>
-			<key>LoginwindowText</key>
-			<string>Let's see if you are welcome here, whoever you are...</string>
-			<key>PayloadDisplayName</key>
-			<string>Loginwindow</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.loginwindow.7F44BA33-1235-4825-99B3-AA53C43C585C</string>
-			<key>PayloadType</key>
-			<string>com.apple.loginwindow</string>
-			<key>PayloadUUID</key>
-			<string>D35E8A17-6017-4644-B5EA-DD71EC1F7F74</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RetriesUntilHint</key>
-			<integer>0</integer>
-			<key>SHOWFULLNAME</key>
-			<true/>
-		</dict>
-		<dict>
 			<key>PayloadDisplayName</key>
 			<string>Media Sharing</string>
 			<key>PayloadIdentifier</key>
@@ -443,8 +313,6 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>DisableSoftwareUpdateNotifications</key>
-			<true/>
 			<key>PayloadDisplayName</key>
 			<string>App Store settings</string>
 			<key>PayloadIdentifier</key>
@@ -452,7 +320,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.appstore</string>
 			<key>PayloadUUID</key>
-			<string>E0411530-D2DF-4E15-A5CE-4B61586CBD19</string>
+			<string>2AFDE0CF-8659-4B95-9B38-F5045CEE28BF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>restrict-store-require-admin-to-install</key>
@@ -657,6 +525,132 @@
 			<string>com.apple.python</string>
 			<key>PayloadUUID</key>
 			<string>6A24EE16-65E5-4539-9C02-9B25476F7105</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DestroyFVKeyOnStandby</key>
+			<true/>
+			<key>DisableGuestAccount</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.402E0A40-766A-4530-A2F2-E904DFDE17AD</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>402E0A40-766A-4530-A2F2-E904DFDE17AD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>dontAllowFDEDisable</key>
+			<true/>
+			<key>timeServer</key>
+			<string>nl.pool.ntp.org</string>
+			<key>timeZone</key>
+			<string>Europe/Amsterdam</string>
+		</dict>
+		<dict>
+			<key>ChangePasswordDisabled</key>
+			<true/>
+			<key>CombineUserWorkgroups</key>
+			<true/>
+			<key>DisableConsoleAccess</key>
+			<false/>
+			<key>EnableExternalAccounts</key>
+			<false/>
+			<key>FlattenUserWorkgroups</key>
+			<true/>
+			<key>LocalUserLoginEnabled</key>
+			<true/>
+			<key>LocalUsersHaveWorkgroups</key>
+			<true/>
+			<key>LoginwindowText</key>
+			<string>Let's see if you are welcome here...</string>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.49CAC445-8218-4B81-A6F1-2B0D25F49415</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>A068ADDA-6A96-4C07-A384-80FD5E5F10D9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RetriesUntilHint</key>
+			<integer>0</integer>
+			<key>SHOWFULLNAME</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AppleShowAllExtensions</key>
+			<true/>
+			<key>AppleShowScrollBars</key>
+			<string>Automatic</string>
+			<key>MultipleSessionEnabled</key>
+			<true/>
+			<key>NSDocumentSaveNewDocumentsToCloud</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Global Preferences</string>
+			<key>PayloadIdentifier</key>
+			<string>.GlobalPreferences.011A33C4-1858-4332-BFAB-1EBD7953F515</string>
+			<key>PayloadType</key>
+			<string>.GlobalPreferences</string>
+			<key>PayloadUUID</key>
+			<string>011A33C4-1858-4332-BFAB-1EBD7953F515</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>The Unarchiver (Standalone)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.macpaw.site.theunarchiver.2B9118AC-BFD3-4D42-8192-C6CF2E25EA1D</string>
+			<key>PayloadType</key>
+			<string>com.macpaw.site.theunarchiver</string>
+			<key>PayloadUUID</key>
+			<string>2B9118AC-BFD3-4D42-8192-C6CF2E25EA1D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SUEnableAutomaticChecks</key>
+			<true/>
+			<key>userAgreedToNewTOSAndPrivacy</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>OnboardingUserViewedWelcomeSlide</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>The Unarchiver (Mac App Store)</string>
+			<key>PayloadIdentifier</key>
+			<string>cx.c3.theunarchiver.84DA54AC-0E29-41A7-B6BC-A290CDBE2BB8</string>
+			<key>PayloadType</key>
+			<string>cx.c3.theunarchiver</string>
+			<key>PayloadUUID</key>
+			<string>84DA54AC-0E29-41A7-B6BC-A290CDBE2BB8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DSDontWriteNetworkStores</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Services</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.desktopservices.B69FC08A-C761-4EF4-8923-6CE3B13E6772</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>B69FC08A-C761-4EF4-8923-6CE3B13E6772</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -866,7 +860,7 @@ bug/unwanted functionality in Apple system)
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>635B531E-6841-4A01-8897-BE4AC46E43B2</string>
+	<string>D1F6764C-C58E-4391-89AA-7A6CBE1F29A0</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
