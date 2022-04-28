@@ -617,7 +617,7 @@
 			<key>LocalUsersHaveWorkgroups</key>
 			<true/>
 			<key>LoginwindowText</key>
-			<string>Let's see if you are welcome here...</string>
+			<string>Let's figure out what you are gonna do...</string>
 			<key>PayloadDisplayName</key>
 			<string>Loginwindow</string>
 			<key>PayloadIdentifier</key>
