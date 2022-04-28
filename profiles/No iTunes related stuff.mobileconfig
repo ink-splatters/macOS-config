@@ -12,18 +12,22 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>8F5641AB-55B9-464B-B9BE-E927350FC26D</string>
+			<string>54FBF2A8-4EAF-468F-BFAA-3853E9366CBD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAirPrint</key>
-			<false/>
 			<key>allowAppClips</key>
 			<false/>
 			<key>allowAutomaticAppDownloads</key>
 			<false/>
 			<key>allowBookstore</key>
 			<false/>
-			<key>allowContentCaching</key>
+			<key>allowBookstoreErotica</key>
+			<false/>
+			<key>allowEnterpriseBookBackup</key>
+			<false/>
+			<key>allowEnterpriseBookMetadataSync</key>
+			<false/>
+			<key>allowExplicitContent</key>
 			<false/>
 			<key>allowGameCenter</key>
 			<false/>
@@ -37,10 +41,16 @@
 			<false/>
 			<key>allowRadioService</key>
 			<false/>
+			<key>allowRemoteAppPairing</key>
+			<false/>
 			<key>allowiTunes</key>
 			<false/>
 			<key>allowiTunesFileSharing</key>
 			<false/>
+			<key>ratingMovies</key>
+			<integer>0</integer>
+			<key>ratingTVShows</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>AirplayRecieverEnabled</key>
@@ -66,7 +76,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.iTunes</string>
 			<key>PayloadUUID</key>
-			<string>B30A7486-6F9B-471D-8CC1-F33D1FF16F4C</string>
+			<string>90429985-87C3-43A4-9552-A9D06D3C0ABE</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>disableAppleMusic</key>
@@ -92,51 +102,49 @@
 				<key>EA1510</key>
 				<true/>
 			</dict>
+			<key>restrictExplicit</key>
+			<true/>
+			<key>restrictExplicitBooks</key>
+			<true/>
+			<key>restrictGames</key>
+			<true/>
+			<key>restrictMovies</key>
+			<true/>
+			<key>restrictTVShows</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>BKAlreadyDisplayedGDPRWelcomeExperience</key>
+			<true/>
+			<key>BKAlreadyDisplayedUbiquity</key>
+			<true/>
+			<key>BKDisableBookStorePreferenceKey</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>iBooks #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.iBooksX.70304733-7B7A-40C3-9937-484F791A795C</string>
+			<key>PayloadType</key>
+			<string>com.apple.iBooksX</string>
+			<key>PayloadUUID</key>
+			<string>70304733-7B7A-40C3-9937-484F791A795C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Restrictions
-- disable AirPrint
-- disable Apple Music
-- disable Radio
-- disable iBookStore [iOS payload]
-- disallow automatic app updates [iOS payload]
-- disallow iTunes Store [iOS Payload]
-- disallow Apple News [iOS Payload]
-- disallow Podcasts [iOS Payload]
-- disallow Game Center
-- disallow My Photo Stream [iOS Payload]
-- disable iBooks Store
-- suppress Welcome to Apple Books Screen
-- suppress empty library / go to store screen
-- disable airplay receiver
-
-Disable in iTunes Domain:
-- library info sharing
-- device backups
-- apple music
-- music profiles and posts
-- checking for updates
-- itunes store
-- podcasts
-- internet radio
-- shared libraries
-- devices syncing automatically
-
-</string>
+	<string>TODO</string>
 	<key>PayloadDisplayName</key>
-	<string>No Apple Media Services</string>
+	<string>No iTunes related stuff</string>
 	<key>PayloadIdentifier</key>
-	<string>no-apple-media.0F84965D-B198-42CD-A075-A7DA00CAC8D8</string>
+	<string>no-itunes-stuff.0F84965D-B198-42CD-A075-A7DA00CAC8D8</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>EC0BB746-BA9B-4CF5-9422-CE937178CA3C</string>
+	<string>728DB5F3-688E-47B4-BAFD-77C47F75C5EB</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>

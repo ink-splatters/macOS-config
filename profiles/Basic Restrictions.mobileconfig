@@ -14,7 +14,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.mDNSResponder</string>
 			<key>PayloadUUID</key>
-			<string>2841B012-920A-4B24-A1C3-28874CBC77FC</string>
+			<string>43DA7424-5C0D-4854-AF6D-E0434EA31E7F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -48,7 +48,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SoftwareUpdate</string>
 			<key>PayloadUUID</key>
-			<string>69EC05D6-64F7-4E85-8CC9-DF51F5775465</string>
+			<string>41A06CB4-2A89-4B34-A6A4-0E5157CF056C</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SUDisableEVCheck</key>
@@ -168,9 +168,11 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>DCA5A2E8-194B-40E3-8770-7C36481D0ED6</string>
+			<string>B3A9EC76-A268-4E21-8BDA-5D4F85FA5DBD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>allowAddingGameCenterFriends</key>
+			<false/>
 			<key>allowAirPrintiBeaconDiscovery</key>
 			<false/>
 			<key>allowApplePersonalizedAdvertising</key>
@@ -179,9 +181,11 @@
 			<false/>
 			<key>allowAutoCorrection</key>
 			<false/>
-			<key>allowAutoUnlock</key>
+			<key>allowAutomaticAppDownloads</key>
 			<false/>
 			<key>allowCloudBTMM</key>
+			<false/>
+			<key>allowCloudBackup</key>
 			<false/>
 			<key>allowCloudFMM</key>
 			<false/>
@@ -189,25 +193,45 @@
 			<false/>
 			<key>allowContentCaching</key>
 			<false/>
+			<key>allowContinuousPathKeyboard</key>
+			<false/>
 			<key>allowDefinitionLookup</key>
 			<false/>
 			<key>allowDeviceNameModification</key>
 			<false/>
 			<key>allowDiagnosticSubmission</key>
 			<false/>
+			<key>allowEnterpriseAppTrust</key>
+			<false/>
+			<key>allowEnterpriseBookBackup</key>
+			<false/>
+			<key>allowEnterpriseBookMetadataSync</key>
+			<false/>
 			<key>allowFindMyDevice</key>
 			<false/>
 			<key>allowFindMyFriends</key>
 			<false/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
+			<key>allowGlobalBackgroundFetchWhenRoaming</key>
+			<false/>
+			<key>allowHostPairing</key>
+			<false/>
 			<key>allowMailPrivacyProtection</key>
+			<false/>
+			<key>allowManagedAppsCloudSync</key>
+			<false/>
+			<key>allowMultiplayerGaming</key>
+			<false/>
+			<key>allowNews</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
-			<key>allowPairedWatch</key>
+			<key>allowOpenFromManagedToUnmanaged</key>
+			<false/>
+			<key>allowOpenFromUnmanagedToManaged</key>
 			<false/>
 			<key>allowPhotoStream</key>
-			<false/>
-			<key>allowProximitySetupToNewDevice</key>
 			<false/>
 			<key>allowRemoteAppPairing</key>
 			<false/>
@@ -217,13 +241,15 @@
 			<false/>
 			<key>allowSpotlightInternetResults</key>
 			<false/>
-			<key>allowiTunesFileSharing</key>
+			<key>allowVoiceDialing</key>
 			<false/>
 			<key>enforcedFingerprintTimeout</key>
-			<integer>172800</integer>
+			<integer>14400</integer>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
 			<key>forceAutomaticDateAndTime</key>
+			<true/>
+			<key>forceEncryptedBackup</key>
 			<true/>
 			<key>forceLimitAdTracking</key>
 			<true/>
@@ -231,6 +257,8 @@
 			<true/>
 			<key>forceOnDeviceOnlyTranslation</key>
 			<true/>
+			<key>safariAcceptCookies</key>
+			<real>1</real>
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
@@ -280,24 +308,6 @@
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>Media Sharing</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.preferences.sharing.SharingPrefsExtension.E190D4CA-D410-438B-86D0-B0B7F20DFE0D</string>
-			<key>PayloadType</key>
-			<string>com.apple.preferences.sharing.SharingPrefsExtension</string>
-			<key>PayloadUUID</key>
-			<string>E190D4CA-D410-438B-86D0-B0B7F20DFE0D</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>homeSharingUIStatus</key>
-			<integer>0</integer>
-			<key>legacySharingUIStatus</key>
-			<integer>0</integer>
-			<key>mediaSharingUIStatus</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
 			<string>Ad Tracking</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.AdLib.1E24FA35-55BA-4B95-BD18-6BE0456F0C21</string>
@@ -334,11 +344,15 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>9B5EB443-8536-41E6-B377-D2E66EF738D7</string>
+			<string>437B3865-0D58-4756-AFAF-AF430181DD29</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>autohide-immutable</key>
+			<true/>
 			<key>launchanim</key>
 			<false/>
+			<key>launchanim-immutable</key>
+			<true/>
 			<key>magnify-immutable</key>
 			<true/>
 			<key>magsize-immutable</key>
@@ -350,6 +364,10 @@
 			<key>minimize-to-application</key>
 			<true/>
 			<key>minintoapp-immutable</key>
+			<true/>
+			<key>orientation</key>
+			<string>bottom</string>
+			<key>position-immutable</key>
 			<true/>
 			<key>show-recents</key>
 			<false/>
@@ -378,9 +396,11 @@
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>1248285C-540A-4CD4-AD48-D3EB6B7C8CF6</string>
+			<string>F0AD3BAD-E197-4C78-BB7D-5F4551C1241F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>ProhibitBurn</key>
+			<true/>
 			<key>ShowExternalHardDrivesOnDesktop</key>
 			<false/>
 			<key>ShowRecentTags</key>
@@ -540,7 +560,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.MCX</string>
 			<key>PayloadUUID</key>
-			<string>402E0A40-766A-4530-A2F2-E904DFDE17AD</string>
+			<string>46946D5D-0C64-4906-A8F9-2E7EB01BE608</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RequireAdminForAirPortNetworkChange</key>
@@ -551,6 +571,29 @@
 			<true/>
 			<key>SleepDisabled</key>
 			<false/>
+			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
+			<true/>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>15</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>3</integer>
+				<key>Wake On LAN</key>
+				<integer>0</integer>
+			</dict>
 			<key>dontAllowFDEDisable</key>
 			<true/>
 			<key>timeServer</key>
@@ -562,13 +605,13 @@
 			<key>ChangePasswordDisabled</key>
 			<true/>
 			<key>CombineUserWorkgroups</key>
-			<true/>
+			<false/>
 			<key>DisableConsoleAccess</key>
 			<false/>
 			<key>EnableExternalAccounts</key>
 			<false/>
 			<key>FlattenUserWorkgroups</key>
-			<true/>
+			<false/>
 			<key>LocalUserLoginEnabled</key>
 			<true/>
 			<key>LocalUsersHaveWorkgroups</key>
@@ -582,7 +625,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
-			<string>A068ADDA-6A96-4C07-A384-80FD5E5F10D9</string>
+			<string>B00FBBC4-F975-4704-8C8C-817D6FC235CF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RetriesUntilHint</key>
@@ -641,36 +684,604 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>DSDontWriteNetworkStores</key>
-			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Desktop Services</string>
+			<string>Setup Assistant #1</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.desktopservices.B69FC08A-C761-4EF4-8923-6CE3B13E6772</string>
+			<string>com.apple.SetupAssistant.managed.5C78FCC0-646D-469C-8E77-E9FFB1EC5F8D</string>
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>B69FC08A-C761-4EF4-8923-6CE3B13E6772</string>
+			<string>5C78FCC0-646D-469C-8E77-E9FFB1EC5F8D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipAccessibility</key>
+			<true/>
+			<key>SkipAppearance</key>
+			<true/>
+			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipSiriSetup</key>
+			<true/>
+			<key>SkipTrueTone</key>
+			<true/>
+			<key>SkipUnlockWithWatch</key>
+			<true/>
+			<key>SkipiCloudStorageSetup</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Safari Developer</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Safari.SandboxBroker.E2E07FED-4297-4352-B67C-17AE1293F0C0</string>
+			<key>PayloadType</key>
+			<string>com.apple.Safari.SandboxBroker</string>
+			<key>PayloadUUID</key>
+			<string>E2E07FED-4297-4352-B67C-17AE1293F0C0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ShowDevelopMenu</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>System Logging</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.system.logging.72B0122F-39EB-48B2-9B25-9E2F80B24CE6</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>72B0122F-39EB-48B2-9B25-9E2F80B24CE6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>System</key>
+			<dict>
+				<key>Enable-Private-Data</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>AppAutoUpdate</key>
+			<true/>
+			<key>Authentication</key>
+			<dict>
+				<key>AllowNonFQDN</key>
+				<dict>
+					<key>NTLM</key>
+					<false/>
+					<key>SPNEGO</key>
+					<false/>
+				</dict>
+				<key>AllowProxies</key>
+				<dict>
+					<key>NTLM</key>
+					<false/>
+					<key>SPNEGO</key>
+					<false/>
+				</dict>
+				<key>Locked</key>
+				<true/>
+				<key>PrivateBrowsing</key>
+				<true/>
+			</dict>
+			<key>BlockAboutAddons</key>
+			<false/>
+			<key>BlockAboutConfig</key>
+			<false/>
+			<key>BlockAboutProfiles</key>
+			<false/>
+			<key>BlockAboutSupport</key>
+			<false/>
+			<key>Cookies</key>
+			<dict>
+				<key>AcceptThirdParty</key>
+				<string>never</string>
+				<key>Behavior</key>
+				<string>reject-foreign</string>
+				<key>BehaviorPrivateBrowsing</key>
+				<string>reject-foreign</string>
+				<key>ExpireAtSessionEnd</key>
+				<true/>
+				<key>Locked</key>
+				<true/>
+				<key>RejectTracker</key>
+				<true/>
+			</dict>
+			<key>DNSOverHTTPS</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<key>DisableAppUpdate</key>
+			<false/>
+			<key>DisableBuiltinPDFViewer</key>
+			<false/>
+			<key>DisableDeveloperTools</key>
+			<false/>
+			<key>DisableFirefoxAccounts</key>
+			<false/>
+			<key>DisableFirefoxScreenshots</key>
+			<false/>
+			<key>DisableFirefoxStudies</key>
+			<false/>
+			<key>DisablePocket</key>
+			<false/>
+			<key>DisablePrivateBrowsing</key>
+			<false/>
+			<key>DisableProfileImport</key>
+			<false/>
+			<key>DisableSafeMode</key>
+			<false/>
+			<key>DisableSecurityBypass</key>
+			<dict>
+				<key>SafeBrowsing</key>
+				<false/>
+			</dict>
+			<key>DisableSetDesktopBackground</key>
+			<false/>
+			<key>DisableSystemAddonUpdate</key>
+			<false/>
+			<key>DisabledCiphers</key>
+			<dict>
+				<key>TLS_RSA_WITH_3DES_EDE_CBC_SHA</key>
+				<false/>
+			</dict>
+			<key>EnableTrackingProtection</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+			</dict>
+			<key>EncryptedMediaExtensions</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Locked</key>
+				<true/>
+			</dict>
+			<key>EnterprisePoliciesEnabled</key>
+			<true/>
+			<key>ExtensionUpdate</key>
+			<true/>
+			<key>FirefoxHome</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+				<key>Pocket</key>
+				<true/>
+				<key>Search</key>
+				<true/>
+				<key>Snippets</key>
+				<true/>
+				<key>TopSites</key>
+				<true/>
+			</dict>
+			<key>Handlers</key>
+			<dict>
+				<key>extensions</key>
+				<dict>
+					<key>action</key>
+					<string>useSystemDefault</string>
+				</dict>
+				<key>schemes</key>
+				<dict>
+					<key>action</key>
+					<string>saveToDisk</string>
+				</dict>
+			</dict>
+			<key>HardwareAcceleration</key>
+			<true/>
+			<key>Homepage</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+				<key>StartPage</key>
+				<string>none</string>
+			</dict>
+			<key>NewTabPage</key>
+			<true/>
+			<key>OverrideFirstRunPage</key>
+			<string>about:config</string>
+			<key>PayloadDisplayName</key>
+			<string>Firefox</string>
+			<key>PayloadIdentifier</key>
+			<string>org.mozilla.firefox.CF979D5E-28F7-401F-AE7C-AF2AF3F14596</string>
+			<key>PayloadType</key>
+			<string>org.mozilla.firefox</string>
+			<key>PayloadUUID</key>
+			<string>363B9E24-5593-4B1E-A0C4-23DAC829D83B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Permissions</key>
+			<dict>
+				<key>Autoplay</key>
+				<dict>
+					<key>Default</key>
+					<string>block-audio-video</string>
+					<key>Locked</key>
+					<true/>
+				</dict>
+				<key>Camera</key>
+				<dict>
+					<key>BlockNewRequests</key>
+					<false/>
+				</dict>
+				<key>Location</key>
+				<dict>
+					<key>Locked</key>
+					<true/>
+				</dict>
+				<key>Microphone</key>
+				<dict>
+					<key>BlockNewRequests</key>
+					<false/>
+				</dict>
+				<key>Notifications</key>
+				<dict>
+					<key>Locked</key>
+					<true/>
+				</dict>
+				<key>VirtualReality</key>
+				<dict>
+					<key>Locked</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>PictureInPicture</key>
+			<dict>
+				<key>Enabled</key>
+				<false/>
+				<key>Locked</key>
+				<false/>
+			</dict>
+			<key>PopupBlocking</key>
+			<dict>
+				<key>Locked</key>
+				<true/>
+			</dict>
+			<key>Preferences</key>
+			<dict>
+				<key>accessibility.force_disabled</key>
+				<integer>1</integer>
+				<key>browser.safebrowsing.malware.enabled</key>
+				<false/>
+				<key>browser.safebrowsing.phishing.enabled</key>
+				<false/>
+				<key>browser.search.update</key>
+				<false/>
+				<key>browser.tabs.warnOnClose</key>
+				<false/>
+				<key>browser.taskbar.previews.enable</key>
+				<true/>
+				<key>browser.urlbar.suggest.bookmark</key>
+				<false/>
+				<key>browser.urlbar.suggest.history</key>
+				<false/>
+				<key>browser.urlbar.suggest.openpage</key>
+				<false/>
+				<key>dom.allow_scripts_to_close_windows</key>
+				<false/>
+				<key>dom.disable_window_flip</key>
+				<false/>
+				<key>extensions.htmlaboutaddons.recommendations.enabled</key>
+				<false/>
+				<key>geo.enabled</key>
+				<false/>
+				<key>media.eme.enabled</key>
+				<false/>
+				<key>media.gmp-gmpopenh264.enabled</key>
+				<false/>
+				<key>media.gmp-widevinecdm.enabled</key>
+				<false/>
+				<key>media.peerconnection.enabled</key>
+				<false/>
+				<key>places.history.enabled</key>
+				<false/>
+				<key>print.save_print_settings</key>
+				<false/>
+			</dict>
+			<key>Proxy</key>
+			<dict>
+				<key>Mode</key>
+				<string>none</string>
+			</dict>
+			<key>SSLVersionMin</key>
+			<string>tls1.3</string>
+			<key>SearchBar</key>
+			<string>unified</string>
+			<key>UserMessaging</key>
+			<dict>
+				<key>SkipOnboarding</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileSMS</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>Face</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<false/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Music</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.AppStore</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<false/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.iBooks</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<false/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.tv</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<false/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.findmy</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobileslideshow</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.reminders</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.mobilesafari</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<false/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Passbook</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Calendar</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInCarPlay</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.B60FF37E-4116-4719-BB76-A0E822E820FA</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>B60FF37E-4116-4719-BB76-A0E822E820FA</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>DSDontWriteNetworkStores</key>
-			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Desktop Services</string>
+			<string>GarageBand</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.desktopservices.7F86F742-9441-45A6-B542-C9B87F5EFAC3</string>
+			<string>com.apple.garageband10.9B85859E-9475-473F-9A98-6C2E857A5250</string>
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.garageband10</string>
 			<key>PayloadUUID</key>
-			<string>7F86F742-9441-45A6-B542-C9B87F5EFAC3</string>
+			<string>9B85859E-9475-473F-9A98-6C2E857A5250</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>ShowMoreDownloadsDialogGB</key>
+			<true/>
+			<key>welcomeScreenShown</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SmartCard</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.smartcard.C8C47395-3B16-4539-ABA0-760684EB7AB4</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadUUID</key>
+			<string>616206DE-E5E0-45D8-A574-9A4DB5AAA1C6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowUnmappedUsers</key>
+			<integer>0</integer>
+			<key>checkCertificateTrust</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>iTunes #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.iTunes.0E7266F7-59C0-4D4E-AF30-D24E896AFBFA</string>
+			<key>PayloadType</key>
+			<string>com.apple.iTunes</string>
+			<key>PayloadUUID</key>
+			<string>0E7266F7-59C0-4D4E-AF30-D24E896AFBFA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>disableShareLibraryInfo</key>
+			<true/>
+			<key>disableSharedMusic</key>
+			<true/>
+			<key>license-agreements</key>
+			<dict>
+				<key>EA1510</key>
+				<true/>
+			</dict>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Restrictions
+	<string>TODO: update
+Restrictions
 - no Siri suggestions
 - no Find My / iCloud FindMy
 - no submitting diagnostic and usage data to Apple
@@ -860,7 +1471,7 @@ bug/unwanted functionality in Apple system)
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D1F6764C-C58E-4391-89AA-7A6CBE1F29A0</string>
+	<string>0A340CE3-A9E2-4546-880D-91B4B317C392</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

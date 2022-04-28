@@ -12,10 +12,12 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>4714C77E-2D6F-430C-9611-D2111536850F</string>
+			<string>711157FF-3F9B-444E-9713-7E13BB10D938</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirDrop</key>
+			<false/>
+			<key>allowAirPrint</key>
 			<false/>
 		</dict>
 		<dict>
@@ -46,22 +48,65 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>AirplayRecieverEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Control Center</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.controlcenter.B7FA51D9-FCF6-4CC0-A9C9-14EBA023D1EC</string>
+			<key>PayloadType</key>
+			<string>com.apple.controlcenter</string>
+			<key>PayloadUUID</key>
+			<string>FF9C7747-C2E9-43F4-A761-CBAF38B44CFD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AllowLocalPrinters</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Printing</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mcxprinting.724A70E3-AC3F-4CAE-B4AF-14D1C916B3A8</string>
+			<key>PayloadType</key>
+			<string>com.apple.mcxprinting</string>
+			<key>PayloadUUID</key>
+			<string>724A70E3-AC3F-4CAE-B4AF-14D1C916B3A8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>NSToolbar Configuration com.apple.print.add.toolbar</key>
+			<dict>
+				<key>TB Is Shown</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Printing: Toolbar of Add Printer Window</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.print.add.190897E7-0683-45C5-B5D6-74993F6A2283</string>
+			<key>PayloadType</key>
+			<string>com.apple.print.add</string>
+			<key>PayloadUUID</key>
+			<string>190897E7-0683-45C5-B5D6-74993F6A2283</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>No Air Drop</string>
+	<string>AirPlay is exempt</string>
 	<key>PayloadDisplayName</key>
-	<string>No AirDrop</string>
+	<string>No Air Services</string>
 	<key>PayloadIdentifier</key>
-	<string>no-air-drop.1CB44D08-39A3-48D4-92F5-6FDA6274CBF3</string>
+	<string>no-air-services.1CB44D08-39A3-48D4-92F5-6FDA6274CBF3</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>AAECDE36-EF61-4C26-9FDB-2B2129E93969</string>
+	<string>126D14BC-CD5D-49F8-93CB-6D2D628DE50E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>
