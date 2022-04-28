@@ -30,10 +30,8 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>492EF8DD-3F52-44FB-9401-C4C75557133E</string>
+	<string>F2CCBE94-80D6-47AE-84F9-9449BC34DACA</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>

@@ -8,11 +8,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.D2FB3813-88AF-458C-9B37-608E773BC757</string>
+			<string>com.apple.applicationaccess.87BC2DFD-21BC-48A0-A973-B7FEE2851714</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>700013D0-12CE-45FB-9841-43780932AD49</string>
+			<string>4C7F41AC-7D3F-40DB-86DC-3F0CE54216BD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirPrintiBeaconDiscovery</key>
@@ -27,6 +27,10 @@
 			<false/>
 			<key>allowProximitySetupToNewDevice</key>
 			<false/>
+			<key>allowSharedDeviceTemporarySession</key>
+			<false/>
+			<key>forceAirPrintTrustedTLSRequirement</key>
+			<true/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -37,7 +41,7 @@
 -disallow pairing with Apple Watch [iOS payload]
 -disallow setting up new nearby iOS devies [iOS payload]</string>
 	<key>PayloadDisplayName</key>
-	<string>No Nearby / Proximity features</string>
+	<string>No Nearby / Proximity Features</string>
 	<key>PayloadIdentifier</key>
 	<string>no-nearby.136BF112-3D4B-486C-9A00-3724645A32D4</string>
 	<key>PayloadScope</key>
@@ -45,10 +49,8 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5DF24D99-957F-43A3-B0D0-C6DEB825686D</string>
+	<string>EE75DB2C-9CE9-4FDD-B901-8BB66334F6F8</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>
