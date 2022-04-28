@@ -168,7 +168,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>B3A9EC76-A268-4E21-8BDA-5D4F85FA5DBD</string>
+			<string>74C96E75-7450-4D69-BD62-2A4E36837584</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAddingGameCenterFriends</key>
@@ -203,10 +203,6 @@
 			<false/>
 			<key>allowEnterpriseAppTrust</key>
 			<false/>
-			<key>allowEnterpriseBookBackup</key>
-			<false/>
-			<key>allowEnterpriseBookMetadataSync</key>
-			<false/>
 			<key>allowFindMyDevice</key>
 			<false/>
 			<key>allowFindMyFriends</key>
@@ -218,8 +214,6 @@
 			<key>allowHostPairing</key>
 			<false/>
 			<key>allowMailPrivacyProtection</key>
-			<false/>
-			<key>allowManagedAppsCloudSync</key>
 			<false/>
 			<key>allowMultiplayerGaming</key>
 			<false/>
@@ -1471,7 +1465,7 @@ bug/unwanted functionality in Apple system)
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>0A340CE3-A9E2-4546-880D-91B4B317C392</string>
+	<string>95143FCE-52C4-4E1C-847C-AAD2F4203C2F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>

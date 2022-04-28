@@ -12,7 +12,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>54FBF2A8-4EAF-468F-BFAA-3853E9366CBD</string>
+			<string>9D1F5202-5022-4BB9-8249-2905EE48070E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAppClips</key>
@@ -22,10 +22,6 @@
 			<key>allowBookstore</key>
 			<false/>
 			<key>allowBookstoreErotica</key>
-			<false/>
-			<key>allowEnterpriseBookBackup</key>
-			<false/>
-			<key>allowEnterpriseBookMetadataSync</key>
 			<false/>
 			<key>allowExplicitContent</key>
 			<false/>
@@ -143,7 +139,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>728DB5F3-688E-47B4-BAFD-77C47F75C5EB</string>
+	<string>7E1F879F-B319-4E5D-8450-2C2E034603FE</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
