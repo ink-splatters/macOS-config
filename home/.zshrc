@@ -1,3 +1,5 @@
+source /etc/static/zshrc
+
 alias n='nix --extra-experimental-features nix-command --extra-experimental-features flakes'
 alias nu='n upgrade-nix'
 alias ns='nix-shell'
