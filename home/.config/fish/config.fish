@@ -1,14 +1,13 @@
-#source /etc/static/fish/config.fish
+source /etc/static/fish/config.fish
 
 alias fs='source ~/.config/fish/config.fish'
 alias fi='vi ~/.config/fish/config.fish'
 
 if status is-interactive
-    # Commands to run in interactive sessions can go herea
 	mullvad status
 end
 
-#mullvad connect
+mullvad connect
 
 alias n='nix --extra-experimental-features nix-command --extra-experimental-features flakes'
 alias nu='n upgrade-nix'
