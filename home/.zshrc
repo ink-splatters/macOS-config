@@ -1,4 +1,4 @@
-#source /etc/static/zshrc
+source /etc/static/zshrc
 
 alias n='nix --extra-experimental-features nix-command --extra-experimental-features flakes'
 alias nu='n upgrade-nix'
@@ -44,5 +44,6 @@ alias connect='mullvad connect'
 alias disconnect='mullvad disconnect' 
 alias snap='tmutil localsnapshot'
 alias l='ls -AleO@'
+alias mvd='mullvad'
 
 export PATH="$PATH:$HOME/.cargo/bin"
