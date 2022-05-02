@@ -1,2 +1,2 @@
-source /etc/static/zprofile
+#source /etc/static/zprofile
 mullvad status
