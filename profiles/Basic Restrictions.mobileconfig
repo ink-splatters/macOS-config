@@ -48,7 +48,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SoftwareUpdate</string>
 			<key>PayloadUUID</key>
-			<string>41A06CB4-2A89-4B34-A6A4-0E5157CF056C</string>
+			<string>915EF64B-092C-45C7-BB2F-3D3EF6C49821</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SUDisableEVCheck</key>
@@ -137,30 +137,6 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>AllowSigned</key>
-			<false/>
-			<key>AllowSignedApp</key>
-			<false/>
-			<key>EnableFirewall</key>
-			<true/>
-			<key>EnableLogging</key>
-			<true/>
-			<key>EnableStealthMode</key>
-			<true/>
-			<key>LoggingOption</key>
-			<string>detail</string>
-			<key>PayloadDisplayName</key>
-			<string>Firewall #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.firewall.213718F2-FF88-4FC2-B604-6842CADB6617</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.firewall</string>
-			<key>PayloadUUID</key>
-			<string>CB3570F7-E876-40D8-8A7D-BD0FDEB54B6C</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
@@ -168,7 +144,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>74C96E75-7450-4D69-BD62-2A4E36837584</string>
+			<string>F1B828E5-2BA9-4DCC-ABAC-3957030D1192</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAddingGameCenterFriends</key>
@@ -182,6 +158,8 @@
 			<key>allowAutoCorrection</key>
 			<false/>
 			<key>allowAutomaticAppDownloads</key>
+			<false/>
+			<key>allowAutomaticScreenSaver</key>
 			<false/>
 			<key>allowCloudBTMM</key>
 			<false/>
@@ -203,6 +181,10 @@
 			<false/>
 			<key>allowEnterpriseAppTrust</key>
 			<false/>
+			<key>allowEnterpriseBookBackup</key>
+			<false/>
+			<key>allowEnterpriseBookMetadataSync</key>
+			<false/>
 			<key>allowFindMyDevice</key>
 			<false/>
 			<key>allowFindMyFriends</key>
@@ -215,6 +197,8 @@
 			<false/>
 			<key>allowMailPrivacyProtection</key>
 			<false/>
+			<key>allowManagedAppsCloudSync</key>
+			<false/>
 			<key>allowMultiplayerGaming</key>
 			<false/>
 			<key>allowNews</key>
@@ -224,6 +208,8 @@
 			<key>allowOpenFromManagedToUnmanaged</key>
 			<false/>
 			<key>allowOpenFromUnmanagedToManaged</key>
+			<false/>
+			<key>allowPairedWatch</key>
 			<false/>
 			<key>allowPhotoStream</key>
 			<false/>
@@ -338,7 +324,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>437B3865-0D58-4756-AFAF-AF430181DD29</string>
+			<string>39816914-9AE7-4324-AC9E-B90A2CBA8B53</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>autohide-immutable</key>
@@ -352,7 +338,7 @@
 			<key>magsize-immutable</key>
 			<true/>
 			<key>mineffect</key>
-			<string>Genie Effect</string>
+			<string>Scale Effect</string>
 			<key>mineffect-immutable</key>
 			<true/>
 			<key>minimize-to-application</key>
@@ -377,8 +363,6 @@
 			<false/>
 			<key>FXPreferredViewStyle</key>
 			<string>Nlsv</string>
-			<key>FXRemoveOldTrashItems</key>
-			<false/>
 			<key>FinderSpawnTab</key>
 			<true/>
 			<key>NewWindowTarget</key>
@@ -390,7 +374,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>F0AD3BAD-E197-4C78-BB7D-5F4551C1241F</string>
+			<string>8224C20D-90D2-409A-9119-49E7DEC73D22</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitBurn</key>
@@ -403,8 +387,8 @@
 			<false/>
 			<key>ShowSidebar</key>
 			<true/>
-			<key>_FXSortFoldersFirst</key>
-			<true/>
+			<key>WarnOnEmptyTrash</key>
+			<false/>
 			<key>_FXSortFoldersFirstOnDesktop</key>
 			<true/>
 		</dict>
@@ -554,7 +538,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.MCX</string>
 			<key>PayloadUUID</key>
-			<string>46946D5D-0C64-4906-A8F9-2E7EB01BE608</string>
+			<string>C24627ED-4C5C-4DAF-9A24-4C3B16A42922</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RequireAdminForAirPortNetworkChange</key>
@@ -565,8 +549,6 @@
 			<true/>
 			<key>SleepDisabled</key>
 			<false/>
-			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
-			<true/>
 			<key>com.apple.EnergySaver.desktop.ACPower</key>
 			<dict>
 				<key>Wake On LAN</key>
@@ -579,12 +561,12 @@
 				<key>System Sleep Timer</key>
 				<integer>0</integer>
 				<key>Wake On LAN</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>com.apple.EnergySaver.portable.BatteryPower</key>
 			<dict>
 				<key>Display Sleep Timer</key>
-				<integer>3</integer>
+				<integer>5</integer>
 				<key>Wake On LAN</key>
 				<integer>0</integer>
 			</dict>
@@ -599,19 +581,19 @@
 			<key>ChangePasswordDisabled</key>
 			<true/>
 			<key>CombineUserWorkgroups</key>
-			<false/>
+			<true/>
 			<key>DisableConsoleAccess</key>
 			<false/>
 			<key>EnableExternalAccounts</key>
 			<false/>
 			<key>FlattenUserWorkgroups</key>
-			<false/>
+			<true/>
 			<key>LocalUserLoginEnabled</key>
 			<true/>
 			<key>LocalUsersHaveWorkgroups</key>
 			<true/>
 			<key>LoginwindowText</key>
-			<string>Let's figure out what you are gonna do...</string>
+			<string>welkom... of niet</string>
 			<key>PayloadDisplayName</key>
 			<string>Loginwindow</string>
 			<key>PayloadIdentifier</key>
@@ -619,7 +601,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
-			<string>B00FBBC4-F975-4704-8C8C-817D6FC235CF</string>
+			<string>4F140074-BBE3-46F6-A746-0A928A45C153</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RetriesUntilHint</key>
@@ -716,23 +698,6 @@
 			<integer>1</integer>
 			<key>ShowDevelopMenu</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>System Logging</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.system.logging.72B0122F-39EB-48B2-9B25-9E2F80B24CE6</string>
-			<key>PayloadType</key>
-			<string>com.apple.system.logging</string>
-			<key>PayloadUUID</key>
-			<string>72B0122F-39EB-48B2-9B25-9E2F80B24CE6</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>System</key>
-			<dict>
-				<key>Enable-Private-Data</key>
-				<true/>
-			</dict>
 		</dict>
 		<dict>
 			<key>AppAutoUpdate</key>
@@ -1011,24 +976,6 @@
 				</dict>
 				<dict>
 					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>Face</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInCarPlay</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>BadgesEnabled</key>
 					<false/>
 					<key>BundleIdentifier</key>
 					<string>com.apple.Music</string>
@@ -1107,7 +1054,7 @@
 					<key>CriticalAlertEnabled</key>
 					<true/>
 					<key>NotificationsEnabled</key>
-					<true/>
+					<false/>
 					<key>ShowInCarPlay</key>
 					<true/>
 					<key>ShowInLockScreen</key>
@@ -1189,24 +1136,6 @@
 					<key>SoundsEnabled</key>
 					<false/>
 				</dict>
-				<dict>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Calendar</string>
-					<key>CriticalAlertEnabled</key>
-					<true/>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInCarPlay</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
 			</array>
 			<key>PayloadDisplayName</key>
 			<string>Notifications</string>
@@ -1215,7 +1144,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.notificationsettings</string>
 			<key>PayloadUUID</key>
-			<string>B60FF37E-4116-4719-BB76-A0E822E820FA</string>
+			<string>F9F72775-82B3-4FC2-8ED7-1EA7358069AA</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -1237,22 +1166,6 @@
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>SmartCard</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.smartcard.C8C47395-3B16-4539-ABA0-760684EB7AB4</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.smartcard</string>
-			<key>PayloadUUID</key>
-			<string>616206DE-E5E0-45D8-A574-9A4DB5AAA1C6</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowUnmappedUsers</key>
-			<integer>0</integer>
-			<key>checkCertificateTrust</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
 			<string>iTunes #1</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.iTunes.0E7266F7-59C0-4D4E-AF30-D24E896AFBFA</string>
@@ -1271,6 +1184,24 @@
 				<key>EA1510</key>
 				<true/>
 			</dict>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SmartCard</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.smartcard.EC9EED00-0B26-4E83-9F8D-45530B2BD3C6</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadUUID</key>
+			<string>EC9EED00-0B26-4E83-9F8D-45530B2BD3C6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserPairing</key>
+			<false/>
+			<key>allowSmartCard</key>
+			<false/>
+			<key>tokenRemovalAction</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -1465,7 +1396,7 @@ bug/unwanted functionality in Apple system)
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>95143FCE-52C4-4E1C-847C-AAD2F4203C2F</string>
+	<string>CBC9E0F5-AF1F-4129-8C09-23ED4816A44F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>TargetDeviceType</key>
