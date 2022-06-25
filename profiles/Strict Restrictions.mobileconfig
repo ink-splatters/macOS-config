@@ -50,7 +50,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SoftwareUpdate</string>
 			<key>PayloadUUID</key>
-			<string>45E9CABE-C3F7-4895-A4CA-7CF6675E9AA3</string>
+			<string>9CD1B3CB-1BB6-4D86-857C-65CB2A25CCF6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SUDisableEVCheck</key>
@@ -146,12 +146,18 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>F0300530-C38E-42D4-B837-1956E7A2FF20</string>
+			<string>0B098070-DE3B-462E-A810-7CC034013271</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAddingGameCenterFriends</key>
+			<key>allowActivityContinuation</key>
 			<false/>
-			<key>allowAirPrintiBeaconDiscovery</key>
+			<key>allowAirDrop</key>
+			<false/>
+			<key>allowAirPrint</key>
+			<false/>
+			<key>allowAppCellularDataModification</key>
+			<false/>
+			<key>allowAppClips</key>
 			<false/>
 			<key>allowApplePersonalizedAdvertising</key>
 			<false/>
@@ -159,15 +165,41 @@
 			<false/>
 			<key>allowAutoUnlock</key>
 			<false/>
+			<key>allowAutomaticAppDownloads</key>
+			<false/>
 			<key>allowAutomaticScreenSaver</key>
 			<false/>
+			<key>allowBluetoothModification</key>
+			<false/>
+			<key>allowBookstore</key>
+			<false/>
+			<key>allowCamera</key>
+			<false/>
+			<key>allowCellularPlanModification</key>
+			<false/>
+			<key>allowChat</key>
+			<false/>
 			<key>allowCloudBTMM</key>
+			<false/>
+			<key>allowCloudBackup</key>
+			<false/>
+			<key>allowCloudDocumentSync</key>
+			<false/>
+			<key>allowCloudFMM</key>
 			<false/>
 			<key>allowCloudPrivateRelay</key>
 			<false/>
 			<key>allowContentCaching</key>
 			<false/>
+			<key>allowContinuousPathKeyboard</key>
+			<false/>
+			<key>allowDeviceNameModification</key>
+			<false/>
 			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowESIMModification</key>
+			<false/>
+			<key>allowEnablingRestrictions</key>
 			<false/>
 			<key>allowEnterpriseAppTrust</key>
 			<false/>
@@ -175,11 +207,23 @@
 			<false/>
 			<key>allowEnterpriseBookMetadataSync</key>
 			<false/>
+			<key>allowFindMyDevice</key>
+			<false/>
 			<key>allowFindMyFriends</key>
 			<false/>
 			<key>allowFindMyFriendsModification</key>
 			<false/>
+			<key>allowFingerprintForUnlock</key>
+			<false/>
+			<key>allowFingerprintModification</key>
+			<false/>
+			<key>allowGameCenter</key>
+			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
+			<false/>
+			<key>allowHostPairing</key>
+			<false/>
+			<key>allowLockScreenControlCenter</key>
 			<false/>
 			<key>allowLockScreenTodayView</key>
 			<false/>
@@ -187,17 +231,39 @@
 			<false/>
 			<key>allowManagedAppsCloudSync</key>
 			<false/>
-			<key>allowMultiplayerGaming</key>
+			<key>allowMusicService</key>
+			<false/>
+			<key>allowNFC</key>
 			<false/>
 			<key>allowNews</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
+			<key>allowOpenFromManagedToUnmanaged</key>
+			<false/>
+			<key>allowOpenFromUnmanagedToManaged</key>
+			<false/>
 			<key>allowPairedWatch</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+			<key>allowPasswordProximityRequests</key>
+			<false/>
+			<key>allowPasswordSharing</key>
+			<false/>
+			<key>allowPersonalHotspotModification</key>
 			<false/>
 			<key>allowPhotoStream</key>
 			<false/>
+			<key>allowPodcasts</key>
+			<false/>
+			<key>allowProximitySetupToNewDevice</key>
+			<false/>
+			<key>allowRadioService</key>
+			<false/>
 			<key>allowRemoteAppPairing</key>
+			<false/>
+			<key>allowScreenShot</key>
 			<false/>
 			<key>allowSharedDeviceTemporarySession</key>
 			<false/>
@@ -207,12 +273,12 @@
 			<false/>
 			<key>allowVoiceDialing</key>
 			<false/>
+			<key>allowiTunes</key>
+			<false/>
 			<key>allowiTunesFileSharing</key>
 			<false/>
-			<key>enforcedFingerprintTimeout</key>
-			<integer>14440</integer>
-			<key>forceAirPrintTrustedTLSRequirement</key>
-			<true/>
+			<key>forceAuthenticationBeforeAutoFill</key>
+			<false/>
 			<key>forceAutomaticDateAndTime</key>
 			<true/>
 			<key>forceEncryptedBackup</key>
@@ -343,6 +409,8 @@
 			<false/>
 			<key>FXPreferredViewStyle</key>
 			<string>Nlsv</string>
+			<key>FXRemoveOldTrashItems</key>
+			<false/>
 			<key>FinderSpawnTab</key>
 			<true/>
 			<key>NewWindowTarget</key>
@@ -354,7 +422,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>7C21B7F9-7300-4589-B461-074C79BCA62A</string>
+			<string>F0AD3BAD-E197-4C78-BB7D-5F4551C1241F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitBurn</key>
@@ -366,6 +434,8 @@
 			<key>ShowRemovableMediaOnDesktop</key>
 			<false/>
 			<key>ShowSidebar</key>
+			<true/>
+			<key>_FXSortFoldersFirst</key>
 			<true/>
 			<key>_FXSortFoldersFirstOnDesktop</key>
 			<true/>
@@ -395,6 +465,23 @@
 			<string>com.apple.SubmitDiagInfo</string>
 			<key>PayloadUUID</key>
 			<string>2C9088B7-0A96-4CC7-9036-EFB8161779F7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>HiddenPreferencePanes</key>
+			<array>
+				<string>com.apple.preference.mouse</string>
+				<string>com.apple.preference.speech</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.systempreferences.FD103FC7-0C4D-4AC6-87B5-552A2FA76EAC</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>FD103FC7-0C4D-4AC6-87B5-552A2FA76EAC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -474,12 +561,91 @@
 			<integer>0</integer>
 		</dict>
 		<dict>
+			<key>DisableGuestAccount</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.402E0A40-766A-4530-A2F2-E904DFDE17AD</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>FFBCCF51-621C-4DEE-8755-533D2B04E635</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Wake On LAN</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>15</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+				<key>Wake On LAN</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>3</integer>
+				<key>Wake On LAN</key>
+				<integer>0</integer>
+			</dict>
+			<key>timeServer</key>
+			<string>nl.pool.ntp.org</string>
+			<key>timeZone</key>
+			<string>Europe/Amsterdam</string>
+		</dict>
+		<dict>
+			<key>ChangePasswordDisabled</key>
+			<false/>
+			<key>CombineUserWorkgroups</key>
+			<false/>
+			<key>DisableConsoleAccess</key>
+			<false/>
+			<key>EnableExternalAccounts</key>
+			<false/>
+			<key>FlattenUserWorkgroups</key>
+			<false/>
+			<key>LocalUserLoginEnabled</key>
+			<true/>
+			<key>LocalUsersHaveWorkgroups</key>
+			<true/>
+			<key>LoginwindowText</key>
+			<string>Welkom... of niet...</string>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.49CAC445-8218-4B81-A6F1-2B0D25F49415</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>0EEAF74C-CCEA-4FA4-9CBD-BD8274E95E76</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RetriesUntilHint</key>
+			<integer>0</integer>
+			<key>SHOWFULLNAME</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>AppleShowAllExtensions</key>
 			<true/>
 			<key>AppleShowScrollBars</key>
 			<string>Automatic</string>
 			<key>MultipleSessionEnabled</key>
-			<true/>
+			<false/>
 			<key>NSDocumentSaveNewDocumentsToCloud</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -489,7 +655,7 @@
 			<key>PayloadType</key>
 			<string>.GlobalPreferences</string>
 			<key>PayloadUUID</key>
-			<string>F6F5DF7C-448B-439C-816E-CC3039F4177F</string>
+			<string>1380D76F-CD05-42D4-9C2B-1D8F26F3511B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -774,6 +940,81 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>DisableDeviceBackups</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>iTunes #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.iTunes.0E7266F7-59C0-4D4E-AF30-D24E896AFBFA</string>
+			<key>PayloadType</key>
+			<string>com.apple.iTunes</string>
+			<key>PayloadUUID</key>
+			<string>36E9950A-D5D4-42F9-A64C-50759AF0342D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>disableAppleMusic</key>
+			<true/>
+			<key>disableCheckForUpdates</key>
+			<true/>
+			<key>disableMusicSocial</key>
+			<true/>
+			<key>disableMusicStore</key>
+			<true/>
+			<key>disablePodcasts</key>
+			<true/>
+			<key>disableRadio</key>
+			<true/>
+			<key>disableShareLibraryInfo</key>
+			<true/>
+			<key>disableSharedMusic</key>
+			<true/>
+			<key>dontAutomaticallySyncIPods</key>
+			<true/>
+			<key>license-agreements</key>
+			<dict>
+				<key>EA1510</key>
+				<true/>
+			</dict>
+			<key>restrictExplicit</key>
+			<true/>
+			<key>restrictExplicitBooks</key>
+			<true/>
+			<key>restrictGames</key>
+			<true/>
+			<key>restrictMovies</key>
+			<true/>
+			<key>restrictTVShows</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>DisableAirDrop</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.NetworkBrowser.BD594A10-0109-440D-86B8-6EE0A91A2D97</string>
+			<key>PayloadType</key>
+			<string>com.apple.NetworkBrowser</string>
+			<key>PayloadUUID</key>
+			<string>BD594A10-0109-440D-86B8-6EE0A91A2D97</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DiscoverableMode</key>
+			<string>Off</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.sharingd.4FA85949-6BA1-4631-AB43-473B2B640CF4</string>
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+			<key>PayloadUUID</key>
+			<string>4FA85949-6BA1-4631-AB43-473B2B640CF4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>BurnSupport</key>
 			<string>off</string>
 			<key>PayloadDisplayName</key>
@@ -808,6 +1049,20 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>AirplayRecieverEnabled</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Control Center</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.controlcenter.58E77317-2D7B-45A9-BD91-C2F857D17778</string>
+			<key>PayloadType</key>
+			<string>com.apple.controlcenter</string>
+			<key>PayloadUUID</key>
+			<string>58E77317-2D7B-45A9-BD91-C2F857D17778</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>PayloadDisplayName</key>
 			<string>Media Sharing</string>
 			<key>PayloadIdentifier</key>
@@ -825,120 +1080,9 @@
 			<key>mediaSharingUIStatus</key>
 			<integer>0</integer>
 		</dict>
-		<dict>
-			<key>DestroyFVKeyOnStandby</key>
-			<true/>
-			<key>DisableGuestAccount</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.MCX.1CA42577-0AC3-413D-9AEE-5111CF8A6F40</string>
-			<key>PayloadType</key>
-			<string>com.apple.MCX</string>
-			<key>PayloadUUID</key>
-			<string>96989A12-EF05-4442-AFD2-C3B8154D8480</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SleepDisabled</key>
-			<false/>
-			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
-			<true/>
-			<key>com.apple.EnergySaver.portable.ACPower</key>
-			<dict>
-				<key>Automatic Restart On Power Loss</key>
-				<integer>1</integer>
-				<key>Display Sleep Timer</key>
-				<integer>15</integer>
-				<key>System Sleep Timer</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.apple.EnergySaver.portable.BatteryPower</key>
-			<dict>
-				<key>Wake On LAN</key>
-				<integer>0</integer>
-			</dict>
-			<key>dontAllowFDEDisable</key>
-			<true/>
-			<key>timeServer</key>
-			<string>nl.pool.ntp.org</string>
-			<key>timeZone</key>
-			<string>Europe/Amsterdam</string>
-		</dict>
-		<dict>
-			<key>AdminMayDisableMCX</key>
-			<false/>
-			<key>CombineUserWorkgroups</key>
-			<true/>
-			<key>EnableExternalAccounts</key>
-			<false/>
-			<key>FlattenUserWorkgroups</key>
-			<true/>
-			<key>LocalUserLoginEnabled</key>
-			<true/>
-			<key>LocalUsersHaveWorkgroups</key>
-			<true/>
-			<key>LoginwindowText</key>
-			<string>Welkom! Of niet...</string>
-			<key>PayloadDisplayName</key>
-			<string>Loginwindow</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.loginwindow.731A4AA1-D8CB-401B-B7A4-804D74ADD9E2</string>
-			<key>PayloadType</key>
-			<string>com.apple.loginwindow</string>
-			<key>PayloadUUID</key>
-			<string>8751A70E-D1C8-4E03-92AB-5417D3BF6D8A</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RetriesUntilHint</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>iTunes #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.iTunes.EC795B00-BB99-4B2C-B8A7-82C231EB52CB</string>
-			<key>PayloadType</key>
-			<string>com.apple.iTunes</string>
-			<key>PayloadUUID</key>
-			<string>EC795B00-BB99-4B2C-B8A7-82C231EB52CB</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>disableCheckForUpdates</key>
-			<true/>
-			<key>disableMusicSocial</key>
-			<true/>
-			<key>disableMusicStore</key>
-			<true/>
-			<key>disableShareLibraryInfo</key>
-			<true/>
-			<key>disableSharedMusic</key>
-			<true/>
-			<key>dontAutomaticallySyncIPods</key>
-			<true/>
-			<key>license-agreements</key>
-			<dict>
-				<key>EA1510</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>CSUIDisable32BitWarnings</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>CoreServices UIAgent</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.coreservices.uiagent.DBC26F72-8A16-4A69-8F49-4AF66897D1B4</string>
-			<key>PayloadType</key>
-			<string>com.apple.coreservices.uiagent</string>
-			<key>PayloadUUID</key>
-			<string>DBC26F72-8A16-4A69-8F49-4AF66897D1B4</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Basic Restrictions</string>
+	<string>Strict Restrictions</string>
 	<key>PayloadIdentifier</key>
 	<string>basic.76DE2BC6-0A53-4B4B-9092-8B5AD330D235</string>
 	<key>PayloadScope</key>
@@ -946,7 +1090,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>353F4643-0A34-407E-B176-33EED77150B4</string>
+	<string>B6ED10FE-6DD0-44C3-AE36-358788A2AC38</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

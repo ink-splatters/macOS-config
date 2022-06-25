@@ -49,20 +49,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>AirplayRecieverEnabled</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Control Center</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.controlcenter.B7FA51D9-FCF6-4CC0-A9C9-14EBA023D1EC</string>
-			<key>PayloadType</key>
-			<string>com.apple.controlcenter</string>
-			<key>PayloadUUID</key>
-			<string>FF9C7747-C2E9-43F4-A761-CBAF38B44CFD</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>AllowLocalPrinters</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -105,7 +91,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>126D14BC-CD5D-49F8-93CB-6D2D628DE50E</string>
+	<string>DC6789A9-BF28-4670-A097-DD2F23B7BD4C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
