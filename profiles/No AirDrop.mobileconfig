@@ -12,12 +12,10 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>711157FF-3F9B-444E-9713-7E13BB10D938</string>
+			<string>D261D974-967A-49E6-AA27-3A31F334944D</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirDrop</key>
-			<false/>
-			<key>allowAirPrint</key>
 			<false/>
 		</dict>
 		<dict>
@@ -30,7 +28,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.NetworkBrowser</string>
 			<key>PayloadUUID</key>
-			<string>B050E67E-DA0F-4DBC-944D-7D6F8E8D9F76</string>
+			<string>325C52A0-48DE-44C0-B319-8A46BCDFDB73</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -48,51 +46,22 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>AllowLocalPrinters</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Printing</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.mcxprinting.724A70E3-AC3F-4CAE-B4AF-14D1C916B3A8</string>
-			<key>PayloadType</key>
-			<string>com.apple.mcxprinting</string>
-			<key>PayloadUUID</key>
-			<string>724A70E3-AC3F-4CAE-B4AF-14D1C916B3A8</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>NSToolbar Configuration com.apple.print.add.toolbar</key>
-			<dict>
-				<key>TB Is Shown</key>
-				<integer>0</integer>
-			</dict>
-			<key>PayloadDisplayName</key>
-			<string>Printing: Toolbar of Add Printer Window</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.print.add.190897E7-0683-45C5-B5D6-74993F6A2283</string>
-			<key>PayloadType</key>
-			<string>com.apple.print.add</string>
-			<key>PayloadUUID</key>
-			<string>190897E7-0683-45C5-B5D6-74993F6A2283</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>AirPlay is exempt</string>
+	<string>No AirDrop</string>
 	<key>PayloadDisplayName</key>
-	<string>No Air Services</string>
+	<string>No Air Drop</string>
 	<key>PayloadIdentifier</key>
-	<string>no-air-services.1CB44D08-39A3-48D4-92F5-6FDA6274CBF3</string>
+	<string>no-airdrop.32827E2A-E471-4DF7-B334-23D2A3BCE520</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>DC6789A9-BF28-4670-A097-DD2F23B7BD4C</string>
+	<string>7D72E1D7-2BC5-4CE9-8748-431D5EF3AD9A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
 </dict>
 </plist>

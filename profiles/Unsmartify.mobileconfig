@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.6F156E21-7646-4743-B172-80C06D075574</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>0F70D77F-06DF-4E38-A2DC-3D35DFF26B63</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAssistant</key>
+			<false/>
+			<key>allowSiriServerLogging</key>
+			<false/>
+			<key>allowSpotlightInternetResults</key>
+			<false/>
+			<key>forceOnDeviceOnlyDictation</key>
+			<true/>
+			<key>forceOnDeviceOnlyTranslation</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Assistant Enabled</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Assistant</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.assistant.support.58072014-4DE5-4551-8FC5-BB73F0A9DC0C</string>
+			<key>PayloadType</key>
+			<string>com.apple.assistant.support</string>
+			<key>PayloadUUID</key>
+			<string>58072014-4DE5-4551-8FC5-BB73F0A9DC0C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Siri Data Sharing Opt-In Status</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Ironwood Allowed</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Parental Controls: Dictation and Profanity</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ironwood.support.039A8189-A6CF-49E8-9825-07E8B92DBDF2</string>
+			<key>PayloadType</key>
+			<string>com.apple.ironwood.support</string>
+			<key>PayloadUUID</key>
+			<string>039A8189-A6CF-49E8-9825-07E8B92DBDF2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>No Siri, remote translation and remote dictation</string>
+	<key>PayloadDisplayName</key>
+	<string>Unsmartify</string>
+	<key>PayloadIdentifier</key>
+	<string>unsmarfity.49799818-BD35-484F-8740-A7F724B59186</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>EDF9F52D-FC5A-43C9-BD5B-46D4C868AA53</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+</dict>
+</plist>

@@ -6,39 +6,34 @@
 	<array>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>System Logging</string>
+			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.system.logging.73F66828-84BF-4142-9FBC-9984EBF66322</string>
+			<string>com.apple.applicationaccess.453F2DD6-4D96-4827-98EC-2AC4A37F9B59</string>
 			<key>PayloadType</key>
-			<string>com.apple.system.logging</string>
+			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>73F66828-84BF-4142-9FBC-9984EBF66322</string>
+			<string>FEF16D88-959C-46F4-8960-666045A5B2EC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>System</key>
-			<dict>
-				<key>Enable-Private-Data</key>
-				<true/>
-			</dict>
+			<key>allowAirPrint</key>
+			<false/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Enables Private Logging</string>
+	<string>No AirPrint</string>
 	<key>PayloadDisplayName</key>
-	<string>Enable Private Logging</string>
+	<string>No AirPrint</string>
 	<key>PayloadIdentifier</key>
-	<string>private-logging.033932B0-A188-4528-87DC-8C01F49B3A37</string>
+	<string>no-airprint.63AEFE02-44CC-4B1E-B4C5-F6D16C159573</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>7DAE27BA-6FED-4FF8-B8D0-046CA1A86A67</string>
+	<string>982CA38E-2D18-48F2-961A-5F04659D6215</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
 	<date>9999-12-12T16:01:07Z</date>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>

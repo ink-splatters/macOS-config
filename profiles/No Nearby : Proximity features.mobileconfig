@@ -12,9 +12,11 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>4C7F41AC-7D3F-40DB-86DC-3F0CE54216BD</string>
+			<string>5E1E33E2-8E01-479B-8469-E4D415A22162</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>allowActivityContinuation</key>
+			<false/>
 			<key>allowAirPrintiBeaconDiscovery</key>
 			<false/>
 			<key>allowAutoUnlock</key>
@@ -27,19 +29,16 @@
 			<false/>
 			<key>allowProximitySetupToNewDevice</key>
 			<false/>
+			<key>allowRemoteAppPairing</key>
+			<false/>
 			<key>allowSharedDeviceTemporarySession</key>
+			<false/>
+			<key>allowVoiceDialing</key>
 			<false/>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>-disallow Apple Watch to auto unlock device
--disallow proximity based password sharing requests
--disallow password sharing
--disallow discovery of AirPrint printers using iBeacons
--disallow pairing with Apple Watch [iOS payload]
--disallow setting up new nearby iOS devies [iOS payload]</string>
 	<key>PayloadDisplayName</key>
 	<string>No Nearby / Proximity Features</string>
 	<key>PayloadIdentifier</key>
@@ -49,8 +48,10 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>EE75DB2C-9CE9-4FDD-B901-8BB66334F6F8</string>
+	<string>03EB44C3-BD57-4704-AA70-6F22FBE1EE7F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
 </dict>
 </plist>

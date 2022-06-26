@@ -12,12 +12,10 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>9D1F5202-5022-4BB9-8249-2905EE48070E</string>
+			<string>5C57989D-B914-4865-A039-06D45766D4B5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAppClips</key>
-			<false/>
-			<key>allowAutomaticAppDownloads</key>
+			<key>allowAddingGameCenterFriends</key>
 			<false/>
 			<key>allowBookstore</key>
 			<false/>
@@ -25,15 +23,11 @@
 			<false/>
 			<key>allowExplicitContent</key>
 			<false/>
-			<key>allowGameCenter</key>
+			<key>allowMultiplayerGaming</key>
 			<false/>
 			<key>allowMusicService</key>
 			<false/>
 			<key>allowNews</key>
-			<false/>
-			<key>allowPhotoStream</key>
-			<false/>
-			<key>allowPodcasts</key>
 			<false/>
 			<key>allowRadioService</key>
 			<false/>
@@ -49,20 +43,6 @@
 			<integer>0</integer>
 		</dict>
 		<dict>
-			<key>AirplayRecieverEnabled</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Control Center</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.controlcenter.B5C077AF-1F54-43BA-A357-5C072E1AC3A3</string>
-			<key>PayloadType</key>
-			<string>com.apple.controlcenter</string>
-			<key>PayloadUUID</key>
-			<string>B5C077AF-1F54-43BA-A357-5C072E1AC3A3</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>DisableDeviceBackups</key>
 			<true/>
 			<key>PayloadDisplayName</key>
@@ -72,7 +52,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.iTunes</string>
 			<key>PayloadUUID</key>
-			<string>90429985-87C3-43A4-9552-A9D06D3C0ABE</string>
+			<string>6469077A-57A7-42A9-AF7A-8BDD1560A82D</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>disableAppleMusic</key>
@@ -84,7 +64,7 @@
 			<key>disableMusicStore</key>
 			<true/>
 			<key>disablePodcasts</key>
-			<true/>
+			<false/>
 			<key>disableRadio</key>
 			<true/>
 			<key>disableShareLibraryInfo</key>
@@ -129,7 +109,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>TODO</string>
+	<string>Podcasts are exempt ¯\_(ツ)_/¯ </string>
 	<key>PayloadDisplayName</key>
 	<string>No iTunes related stuff</string>
 	<key>PayloadIdentifier</key>
@@ -139,8 +119,10 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>7E1F879F-B319-4E5D-8450-2C2E034603FE</string>
+	<string>51B36274-DB17-4ED0-95C7-F3ADFBF0E271</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
 </dict>
 </plist>

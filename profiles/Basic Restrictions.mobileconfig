@@ -19,32 +19,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>AllowPreReleaseInstallation</key>
-			<false/>
-			<key>AutomaticDownload</key>
-			<false/>
-			<key>AutomaticallyInstallMacOSUpdates</key>
-			<false/>
-			<key>ConfigDataInstall</key>
-			<false/>
-			<key>CriticalUpdateInstall</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Software Update</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.SoftwareUpdate.6DFB6C75-70ED-413C-9FD1-CC824C1D80B0</string>
-			<key>PayloadType</key>
-			<string>com.apple.SoftwareUpdate</string>
-			<key>PayloadUUID</key>
-			<string>206EF9CA-9A33-42D1-9EF6-479B110301AC</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SUDisableEVCheck</key>
-			<true/>
-			<key>restrict-software-update-require-admin-to-install</key>
-			<true/>
-		</dict>
-		<dict>
 			<key>AllowIdentifiedDevelopers</key>
 			<false/>
 			<key>EnableAssessment</key>
@@ -59,22 +33,6 @@
 			<string>87F6B134-39B3-43FC-B6FF-616E8BBB220E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Siri</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.Siri.302B52F9-39A5-44DA-8357-6DA0150C0481</string>
-			<key>PayloadType</key>
-			<string>com.apple.Siri</string>
-			<key>PayloadUUID</key>
-			<string>302B52F9-39A5-44DA-8357-6DA0150C0481</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>StatusMenuVisible</key>
-			<false/>
-			<key>UserHasDeclinedEnable</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>AutoFillCreditCardData</key>
@@ -132,22 +90,18 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>F0300530-C38E-42D4-B837-1956E7A2FF20</string>
+			<string>74D3953F-95B8-469B-8321-8E421111455D</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAddingGameCenterFriends</key>
-			<false/>
 			<key>allowAirPrintiBeaconDiscovery</key>
 			<false/>
 			<key>allowApplePersonalizedAdvertising</key>
 			<false/>
-			<key>allowAssistant</key>
-			<false/>
 			<key>allowAutoUnlock</key>
 			<false/>
-			<key>allowAutomaticScreenSaver</key>
-			<false/>
 			<key>allowCloudBTMM</key>
+			<false/>
+			<key>allowCloudBackup</key>
 			<false/>
 			<key>allowCloudPrivateRelay</key>
 			<false/>
@@ -163,19 +117,9 @@
 			<false/>
 			<key>allowFindMyFriends</key>
 			<false/>
-			<key>allowFindMyFriendsModification</key>
-			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
 			<false/>
-			<key>allowLockScreenTodayView</key>
-			<false/>
-			<key>allowMailPrivacyProtection</key>
-			<false/>
 			<key>allowManagedAppsCloudSync</key>
-			<false/>
-			<key>allowMultiplayerGaming</key>
-			<false/>
-			<key>allowNews</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
@@ -189,25 +133,19 @@
 			<false/>
 			<key>allowSiriServerLogging</key>
 			<false/>
-			<key>allowSpotlightInternetResults</key>
-			<false/>
 			<key>allowVoiceDialing</key>
-			<false/>
-			<key>allowiTunesFileSharing</key>
 			<false/>
 			<key>enforcedFingerprintTimeout</key>
 			<integer>14440</integer>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
+			<key>forceAssistantProfanityFilter</key>
+			<false/>
 			<key>forceAutomaticDateAndTime</key>
 			<true/>
 			<key>forceEncryptedBackup</key>
 			<true/>
 			<key>forceLimitAdTracking</key>
-			<true/>
-			<key>forceOnDeviceOnlyDictation</key>
-			<true/>
-			<key>forceOnDeviceOnlyTranslation</key>
 			<true/>
 			<key>safariAcceptCookies</key>
 			<real>1</real>
@@ -241,22 +179,6 @@
 			<integer>1</integer>
 			<key>requireAlphanumeric</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>Assistant Enabled</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Assistant</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.assistant.support.5509B92C-E97C-401F-963B-876BA6CF26C5</string>
-			<key>PayloadType</key>
-			<string>com.apple.assistant.support</string>
-			<key>PayloadUUID</key>
-			<string>5509B92C-E97C-401F-963B-876BA6CF26C5</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Siri Data Sharing Opt-In Status</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
@@ -418,20 +340,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>DisableFMMiCloudSetting</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>iCloud Find My</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.icloud.managed.17A6FAFD-949B-45D1-BAD1-C599A018FAF0</string>
-			<key>PayloadType</key>
-			<string>com.apple.icloud.managed</string>
-			<key>PayloadUUID</key>
-			<string>17A6FAFD-949B-45D1-BAD1-C599A018FAF0</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>CheckGrammarWithSpelling</key>
 			<false/>
 			<key>CheckSpellingWhileTyping</key>
@@ -491,7 +399,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>5D677515-57EE-439D-A05F-A54DF647A5D1</string>
+			<string>8A007E76-4D40-4C3D-972B-3E6844ED43E5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SkipAccessibility</key>
@@ -502,268 +410,12 @@
 			<true/>
 			<key>SkipScreenTime</key>
 			<true/>
-			<key>SkipSiriSetup</key>
-			<true/>
 			<key>SkipTrueTone</key>
 			<true/>
 			<key>SkipUnlockWithWatch</key>
 			<true/>
 			<key>SkipiCloudStorageSetup</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>AppAutoUpdate</key>
-			<true/>
-			<key>Authentication</key>
-			<dict>
-				<key>AllowNonFQDN</key>
-				<dict>
-					<key>NTLM</key>
-					<false/>
-					<key>SPNEGO</key>
-					<false/>
-				</dict>
-				<key>AllowProxies</key>
-				<dict>
-					<key>NTLM</key>
-					<false/>
-					<key>SPNEGO</key>
-					<false/>
-				</dict>
-				<key>Locked</key>
-				<true/>
-				<key>PrivateBrowsing</key>
-				<true/>
-			</dict>
-			<key>BlockAboutAddons</key>
-			<false/>
-			<key>BlockAboutConfig</key>
-			<false/>
-			<key>BlockAboutProfiles</key>
-			<false/>
-			<key>BlockAboutSupport</key>
-			<false/>
-			<key>Cookies</key>
-			<dict>
-				<key>AcceptThirdParty</key>
-				<string>never</string>
-				<key>Behavior</key>
-				<string>reject-foreign</string>
-				<key>BehaviorPrivateBrowsing</key>
-				<string>reject-foreign</string>
-				<key>ExpireAtSessionEnd</key>
-				<true/>
-				<key>Locked</key>
-				<true/>
-				<key>RejectTracker</key>
-				<true/>
-			</dict>
-			<key>DNSOverHTTPS</key>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<key>DisableAppUpdate</key>
-			<false/>
-			<key>DisableBuiltinPDFViewer</key>
-			<false/>
-			<key>DisableDeveloperTools</key>
-			<false/>
-			<key>DisableFirefoxAccounts</key>
-			<false/>
-			<key>DisableFirefoxScreenshots</key>
-			<false/>
-			<key>DisableFirefoxStudies</key>
-			<false/>
-			<key>DisablePocket</key>
-			<false/>
-			<key>DisablePrivateBrowsing</key>
-			<false/>
-			<key>DisableProfileImport</key>
-			<false/>
-			<key>DisableSafeMode</key>
-			<false/>
-			<key>DisableSecurityBypass</key>
-			<dict>
-				<key>SafeBrowsing</key>
-				<false/>
-			</dict>
-			<key>DisableSetDesktopBackground</key>
-			<false/>
-			<key>DisableSystemAddonUpdate</key>
-			<false/>
-			<key>DisabledCiphers</key>
-			<dict>
-				<key>TLS_RSA_WITH_3DES_EDE_CBC_SHA</key>
-				<false/>
-			</dict>
-			<key>EnableTrackingProtection</key>
-			<dict>
-				<key>Locked</key>
-				<true/>
-			</dict>
-			<key>EncryptedMediaExtensions</key>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Locked</key>
-				<true/>
-			</dict>
-			<key>EnterprisePoliciesEnabled</key>
-			<true/>
-			<key>ExtensionUpdate</key>
-			<true/>
-			<key>FirefoxHome</key>
-			<dict>
-				<key>Locked</key>
-				<true/>
-				<key>Pocket</key>
-				<true/>
-				<key>Search</key>
-				<true/>
-				<key>Snippets</key>
-				<true/>
-				<key>TopSites</key>
-				<true/>
-			</dict>
-			<key>Handlers</key>
-			<dict>
-				<key>extensions</key>
-				<dict>
-					<key>action</key>
-					<string>useSystemDefault</string>
-				</dict>
-				<key>schemes</key>
-				<dict>
-					<key>action</key>
-					<string>saveToDisk</string>
-				</dict>
-			</dict>
-			<key>HardwareAcceleration</key>
-			<true/>
-			<key>Homepage</key>
-			<dict>
-				<key>Locked</key>
-				<true/>
-				<key>StartPage</key>
-				<string>none</string>
-			</dict>
-			<key>NewTabPage</key>
-			<true/>
-			<key>OverrideFirstRunPage</key>
-			<string>about:config</string>
-			<key>PayloadDisplayName</key>
-			<string>Firefox</string>
-			<key>PayloadIdentifier</key>
-			<string>org.mozilla.firefox.CF979D5E-28F7-401F-AE7C-AF2AF3F14596</string>
-			<key>PayloadType</key>
-			<string>org.mozilla.firefox</string>
-			<key>PayloadUUID</key>
-			<string>363B9E24-5593-4B1E-A0C4-23DAC829D83B</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Permissions</key>
-			<dict>
-				<key>Autoplay</key>
-				<dict>
-					<key>Default</key>
-					<string>block-audio-video</string>
-					<key>Locked</key>
-					<true/>
-				</dict>
-				<key>Camera</key>
-				<dict>
-					<key>BlockNewRequests</key>
-					<false/>
-				</dict>
-				<key>Location</key>
-				<dict>
-					<key>Locked</key>
-					<true/>
-				</dict>
-				<key>Microphone</key>
-				<dict>
-					<key>BlockNewRequests</key>
-					<false/>
-				</dict>
-				<key>Notifications</key>
-				<dict>
-					<key>Locked</key>
-					<true/>
-				</dict>
-				<key>VirtualReality</key>
-				<dict>
-					<key>Locked</key>
-					<true/>
-				</dict>
-			</dict>
-			<key>PictureInPicture</key>
-			<dict>
-				<key>Enabled</key>
-				<false/>
-				<key>Locked</key>
-				<false/>
-			</dict>
-			<key>PopupBlocking</key>
-			<dict>
-				<key>Locked</key>
-				<true/>
-			</dict>
-			<key>Preferences</key>
-			<dict>
-				<key>accessibility.force_disabled</key>
-				<integer>1</integer>
-				<key>browser.safebrowsing.malware.enabled</key>
-				<false/>
-				<key>browser.safebrowsing.phishing.enabled</key>
-				<false/>
-				<key>browser.search.update</key>
-				<false/>
-				<key>browser.tabs.warnOnClose</key>
-				<false/>
-				<key>browser.taskbar.previews.enable</key>
-				<true/>
-				<key>browser.urlbar.suggest.bookmark</key>
-				<false/>
-				<key>browser.urlbar.suggest.history</key>
-				<false/>
-				<key>browser.urlbar.suggest.openpage</key>
-				<false/>
-				<key>dom.allow_scripts_to_close_windows</key>
-				<false/>
-				<key>dom.disable_window_flip</key>
-				<false/>
-				<key>extensions.htmlaboutaddons.recommendations.enabled</key>
-				<false/>
-				<key>geo.enabled</key>
-				<false/>
-				<key>media.eme.enabled</key>
-				<false/>
-				<key>media.gmp-gmpopenh264.enabled</key>
-				<false/>
-				<key>media.gmp-widevinecdm.enabled</key>
-				<false/>
-				<key>media.peerconnection.enabled</key>
-				<false/>
-				<key>places.history.enabled</key>
-				<false/>
-				<key>print.save_print_settings</key>
-				<false/>
-			</dict>
-			<key>Proxy</key>
-			<dict>
-				<key>Mode</key>
-				<string>none</string>
-			</dict>
-			<key>SSLVersionMin</key>
-			<string>tls1.3</string>
-			<key>SearchBar</key>
-			<string>unified</string>
-			<key>UserMessaging</key>
-			<dict>
-				<key>SkipOnboarding</key>
-				<true/>
-			</dict>
 		</dict>
 		<dict>
 			<key>BurnSupport</key>
@@ -776,24 +428,6 @@
 			<string>com.apple.DiscRecording</string>
 			<key>PayloadUUID</key>
 			<string>A52163D7-8BF4-4686-914E-BED8FE9218D2</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>GKFeatureAccountModificationAllowed</key>
-			<false/>
-			<key>GKFeatureAddingGameCenterFriendsAllowed</key>
-			<false/>
-			<key>GKFeatureMultiplayerGamingAllowed</key>
-			<false/>
-			<key>PayloadDisplayName</key>
-			<string>Parental Controls: Game Center</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.gamed.82265A81-44CD-4FBF-8678-F12AADAEB1F0</string>
-			<key>PayloadType</key>
-			<string>com.apple.gamed</string>
-			<key>PayloadUUID</key>
-			<string>35D417AA-B7B4-409D-8C13-1A8E725E76A0</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -814,87 +448,6 @@
 			<integer>0</integer>
 			<key>mediaSharingUIStatus</key>
 			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>DestroyFVKeyOnStandby</key>
-			<true/>
-			<key>DisableGuestAccount</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.MCX.1CA42577-0AC3-413D-9AEE-5111CF8A6F40</string>
-			<key>PayloadType</key>
-			<string>com.apple.MCX</string>
-			<key>PayloadUUID</key>
-			<string>0D72500A-4629-4FE1-9A08-679C6B5DCABB</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RequireAdminForAirPortNetworkChange</key>
-			<true/>
-			<key>RequireAdminForIBSS</key>
-			<true/>
-			<key>RequireAdminToTurnAirPortOnOff</key>
-			<true/>
-			<key>SleepDisabled</key>
-			<false/>
-			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
-			<true/>
-			<key>com.apple.EnergySaver.portable.ACPower</key>
-			<dict>
-				<key>Automatic Restart On Power Loss</key>
-				<integer>1</integer>
-				<key>Display Sleep Timer</key>
-				<integer>15</integer>
-				<key>System Sleep Timer</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.apple.EnergySaver.portable.BatteryPower</key>
-			<dict>
-				<key>Wake On LAN</key>
-				<integer>0</integer>
-			</dict>
-			<key>dontAllowFDEDisable</key>
-			<true/>
-			<key>timeServer</key>
-			<string>nl.pool.ntp.org</string>
-			<key>timeZone</key>
-			<string>Europe/Amsterdam</string>
-		</dict>
-		<dict>
-			<key>DisableDeviceBackups</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>iTunes #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.iTunes.EC795B00-BB99-4B2C-B8A7-82C231EB52CB</string>
-			<key>PayloadType</key>
-			<string>com.apple.iTunes</string>
-			<key>PayloadUUID</key>
-			<string>E739748B-ABD2-4CEC-BB9A-B78B1157B211</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>disableAppleMusic</key>
-			<true/>
-			<key>disableCheckForUpdates</key>
-			<true/>
-			<key>disableMusicSocial</key>
-			<true/>
-			<key>disableMusicStore</key>
-			<true/>
-			<key>disableRadio</key>
-			<true/>
-			<key>disableShareLibraryInfo</key>
-			<true/>
-			<key>disableSharedMusic</key>
-			<true/>
-			<key>dontAutomaticallySyncIPods</key>
-			<true/>
-			<key>license-agreements</key>
-			<dict>
-				<key>EA1510</key>
-				<true/>
-			</dict>
 		</dict>
 		<dict>
 			<key>CSUIDisable32BitWarnings</key>
@@ -936,7 +489,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
-			<string>A3D58F29-565E-4DB9-A178-99AF14B08C7C</string>
+			<string>1E753F73-E016-4CE6-8B60-10BA3F50E319</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RetriesUntilHint</key>
@@ -958,17 +511,169 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>DestroyFVKeyOnStandby</key>
+			<true/>
+			<key>DisableGuestAccount</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.E40903F6-1941-4701-8955-21865F92870E</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>71A36198-7A81-4FBA-9E81-A253C58B9E4C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>15</integer>
+				<key>System Sleep Timer</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Display Sleep Timer</key>
+				<integer>5</integer>
+			</dict>
+			<key>dontAllowFDEDisable</key>
+			<true/>
+			<key>timeServer</key>
+			<string>nl.pool.ntp.org</string>
+			<key>timeZone</key>
+			<string>Europe/Amsterdam</string>
+		</dict>
+		<dict>
+			<key>AllowCacheDelete</key>
+			<false/>
+			<key>AllowImports</key>
+			<false/>
+			<key>AllowPersonalCaching</key>
+			<false/>
+			<key>AllowSharedCaching</key>
+			<false/>
+			<key>AllowWirelessPortable</key>
+			<false/>
+			<key>AutoActivation</key>
+			<false/>
+			<key>CacheLimit</key>
+			<integer>1</integer>
+			<key>ListenWithPeersAndParents</key>
+			<false/>
+			<key>MaxConcurrentClients</key>
+			<integer>0</integer>
+			<key>PayloadDisplayName</key>
+			<string>Content Caching</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.AssetCache.managed.9849EB55-6729-445D-A34E-2CAE92FADF24</string>
+			<key>PayloadType</key>
+			<string>com.apple.AssetCache.managed</string>
+			<key>PayloadUUID</key>
+			<string>1D2A915B-31DA-4549-B08F-523A205839D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PersonalCacheLimit</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>The Unarchiver (Standalone)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.macpaw.site.theunarchiver.2F26F716-31B7-4BA5-9717-E49A43C18CAB</string>
+			<key>PayloadType</key>
+			<string>com.macpaw.site.theunarchiver</string>
+			<key>PayloadUUID</key>
+			<string>2F26F716-31B7-4BA5-9717-E49A43C18CAB</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>The Unarchiver (Mac App Store)</string>
+			<key>PayloadIdentifier</key>
+			<string>cx.c3.theunarchiver.919DF8DA-688C-4B41-817D-A32A32B26695</string>
+			<key>PayloadType</key>
+			<string>cx.c3.theunarchiver</string>
+			<key>PayloadUUID</key>
+			<string>919DF8DA-688C-4B41-817D-A32A32B26695</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DisablePythonAlert</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Python</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.python.4FB5B436-FB2F-451C-BCE3-83FD715CD7C0</string>
+			<key>PayloadType</key>
+			<string>com.apple.python</string>
+			<key>PayloadUUID</key>
+			<string>4FB5B436-FB2F-451C-BCE3-83FD715CD7C0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AllowPreReleaseInstallation</key>
+			<false/>
+			<key>AutomaticDownload</key>
+			<false/>
+			<key>AutomaticallyInstallMacOSUpdates</key>
+			<false/>
+			<key>ConfigDataInstall</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Software Update</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SoftwareUpdate.8338FAEB-A2EA-4059-AA59-35F86DB49072</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>569B32A3-DEC4-49FD-9AAB-699E78B0952A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SUDisableEVCheck</key>
+			<true/>
+			<key>restrict-software-update-require-admin-to-install</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>DSDontWriteNetworkStores</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Services</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.desktopservices.E8DAF205-D957-4D8E-AB99-307FB4BF0B89</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>E8DAF205-D957-4D8E-AB99-307FB4BF0B89</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
+	<key>PayloadDescription</key>
+	<string>Opinionated list of basic restrictions. Customizing before usage is highly encouraged.</string>
 	<key>PayloadDisplayName</key>
 	<string>Basic Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>basic.76DE2BC6-0A53-4B4B-9092-8B5AD330D235</string>
+	<string>basic.E1E4D846-CED0-433A-8ADC-1492A87F5FF1</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>FDD50F74-3BF7-48EF-BACF-E2C03CC8EE15</string>
+	<string>1A27BD55-E033-42EA-B270-AFAED78605B3</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
