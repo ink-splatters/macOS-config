@@ -1,5 +1,4 @@
-# macOS Config
+## macOS Config
 
-This branch is attempt to use Nix for all the configuration stuff
+dev branch is not intended to be used 
 
-It's not working yet
