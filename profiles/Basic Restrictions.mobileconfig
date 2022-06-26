@@ -19,20 +19,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>GKAutoRearm</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Security</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.security.42ABFCB4-4020-4E55-A1A5-2E0CE108526D</string>
-			<key>PayloadType</key>
-			<string>com.apple.security</string>
-			<key>PayloadUUID</key>
-			<string>42ABFCB4-4020-4E55-A1A5-2E0CE108526D</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>AllowPreReleaseInstallation</key>
 			<false/>
 			<key>AutomaticDownload</key>
@@ -50,7 +36,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SoftwareUpdate</string>
 			<key>PayloadUUID</key>
-			<string>45E9CABE-C3F7-4895-A4CA-7CF6675E9AA3</string>
+			<string>206EF9CA-9A33-42D1-9EF6-479B110301AC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SUDisableEVCheck</key>
@@ -478,6 +464,8 @@
 			<true/>
 			<key>AppleShowScrollBars</key>
 			<string>Automatic</string>
+			<key>CSUIDisable32BitWarning</key>
+			<true/>
 			<key>MultipleSessionEnabled</key>
 			<true/>
 			<key>NSDocumentSaveNewDocumentsToCloud</key>
@@ -489,9 +477,11 @@
 			<key>PayloadType</key>
 			<string>.GlobalPreferences</string>
 			<key>PayloadUUID</key>
-			<string>F6F5DF7C-448B-439C-816E-CC3039F4177F</string>
+			<string>10354838-78D8-40A0-83BD-1A0F8F4CD9F6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>com.apple.autologout.AutoLogOutDelay</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
@@ -501,7 +491,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>5C78FCC0-646D-469C-8E77-E9FFB1EC5F8D</string>
+			<string>5D677515-57EE-439D-A05F-A54DF647A5D1</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SkipAccessibility</key>
@@ -509,6 +499,8 @@
 			<key>SkipAppearance</key>
 			<true/>
 			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipScreenTime</key>
 			<true/>
 			<key>SkipSiriSetup</key>
 			<true/>
@@ -792,8 +784,6 @@
 			<false/>
 			<key>GKFeatureAddingGameCenterFriendsAllowed</key>
 			<false/>
-			<key>GKFeatureGameCenterAllowed</key>
-			<false/>
 			<key>GKFeatureMultiplayerGamingAllowed</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -803,7 +793,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.gamed</string>
 			<key>PayloadUUID</key>
-			<string>82265A81-44CD-4FBF-8678-F12AADAEB1F0</string>
+			<string>35D417AA-B7B4-409D-8C13-1A8E725E76A0</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -837,9 +827,15 @@
 			<key>PayloadType</key>
 			<string>com.apple.MCX</string>
 			<key>PayloadUUID</key>
-			<string>96989A12-EF05-4442-AFD2-C3B8154D8480</string>
+			<string>0D72500A-4629-4FE1-9A08-679C6B5DCABB</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
 			<key>SleepDisabled</key>
 			<false/>
 			<key>cachedaccounts.askForSecureTokenAuthBypass</key>
@@ -866,34 +862,8 @@
 			<string>Europe/Amsterdam</string>
 		</dict>
 		<dict>
-			<key>AdminMayDisableMCX</key>
-			<false/>
-			<key>CombineUserWorkgroups</key>
+			<key>DisableDeviceBackups</key>
 			<true/>
-			<key>EnableExternalAccounts</key>
-			<false/>
-			<key>FlattenUserWorkgroups</key>
-			<true/>
-			<key>LocalUserLoginEnabled</key>
-			<true/>
-			<key>LocalUsersHaveWorkgroups</key>
-			<true/>
-			<key>LoginwindowText</key>
-			<string>Welkom! Of niet...</string>
-			<key>PayloadDisplayName</key>
-			<string>Loginwindow</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.loginwindow.731A4AA1-D8CB-401B-B7A4-804D74ADD9E2</string>
-			<key>PayloadType</key>
-			<string>com.apple.loginwindow</string>
-			<key>PayloadUUID</key>
-			<string>8751A70E-D1C8-4E03-92AB-5417D3BF6D8A</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RetriesUntilHint</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
 			<key>PayloadDisplayName</key>
 			<string>iTunes #1</string>
 			<key>PayloadIdentifier</key>
@@ -901,14 +871,18 @@
 			<key>PayloadType</key>
 			<string>com.apple.iTunes</string>
 			<key>PayloadUUID</key>
-			<string>EC795B00-BB99-4B2C-B8A7-82C231EB52CB</string>
+			<string>E739748B-ABD2-4CEC-BB9A-B78B1157B211</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>disableAppleMusic</key>
+			<true/>
 			<key>disableCheckForUpdates</key>
 			<true/>
 			<key>disableMusicSocial</key>
 			<true/>
 			<key>disableMusicStore</key>
+			<true/>
+			<key>disableRadio</key>
 			<true/>
 			<key>disableShareLibraryInfo</key>
 			<true/>
@@ -936,6 +910,54 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>AdminHostInfo</key>
+			<string>1</string>
+			<key>AdminMayDisableMCX</key>
+			<false/>
+			<key>ChangePasswordDisabled</key>
+			<false/>
+			<key>CombineUserWorkgroups</key>
+			<true/>
+			<key>EnableExternalAccounts</key>
+			<false/>
+			<key>FlattenUserWorkgroups</key>
+			<true/>
+			<key>LocalUserLoginEnabled</key>
+			<true/>
+			<key>LocalUsersHaveWorkgroups</key>
+			<true/>
+			<key>LoginwindowText</key>
+			<string>Welkom... of niet...</string>
+			<key>PayloadDisplayName</key>
+			<string>Loginwindow</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.B91020ED-5E8F-479C-B9EE-F30A4ED67BC1</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>A3D58F29-565E-4DB9-A178-99AF14B08C7C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RetriesUntilHint</key>
+			<integer>0</integer>
+			<key>SHOWFULLNAME</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>GKAutoRearm</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Security</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.881CE012-C5B5-42B6-BD80-E280E0E41A42</string>
+			<key>PayloadType</key>
+			<string>com.apple.security</string>
+			<key>PayloadUUID</key>
+			<string>881CE012-C5B5-42B6-BD80-E280E0E41A42</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Basic Restrictions</string>
@@ -946,7 +968,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>353F4643-0A34-407E-B176-33EED77150B4</string>
+	<string>FDD50F74-3BF7-48EF-BACF-E2C03CC8EE15</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
