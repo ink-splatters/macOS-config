@@ -512,48 +512,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>DestroyFVKeyOnStandby</key>
-			<true/>
-			<key>DisableGuestAccount</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.MCX.E40903F6-1941-4701-8955-21865F92870E</string>
-			<key>PayloadType</key>
-			<string>com.apple.MCX</string>
-			<key>PayloadUUID</key>
-			<string>71A36198-7A81-4FBA-9E81-A253C58B9E4C</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>RequireAdminForAirPortNetworkChange</key>
-			<true/>
-			<key>RequireAdminForIBSS</key>
-			<true/>
-			<key>RequireAdminToTurnAirPortOnOff</key>
-			<true/>
-			<key>SleepDisabled</key>
-			<false/>
-			<key>com.apple.EnergySaver.portable.ACPower</key>
-			<dict>
-				<key>Display Sleep Timer</key>
-				<integer>15</integer>
-				<key>System Sleep Timer</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.apple.EnergySaver.portable.BatteryPower</key>
-			<dict>
-				<key>Display Sleep Timer</key>
-				<integer>5</integer>
-			</dict>
-			<key>dontAllowFDEDisable</key>
-			<true/>
-			<key>timeServer</key>
-			<string>nl.pool.ntp.org</string>
-			<key>timeZone</key>
-			<string>Europe/Amsterdam</string>
-		</dict>
-		<dict>
 			<key>AllowCacheDelete</key>
 			<false/>
 			<key>AllowImports</key>
@@ -648,6 +606,36 @@
 			<true/>
 		</dict>
 		<dict>
+			<key>DestroyFVKeyOnStandby</key>
+			<true/>
+			<key>DisableGuestAccount</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX.4FE1EE1D-03A6-4187-B420-D8601A4FF459</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>E8D31719-9154-47D2-951D-5A5D3E2742D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RequireAdminForAirPortNetworkChange</key>
+			<true/>
+			<key>RequireAdminForIBSS</key>
+			<true/>
+			<key>RequireAdminToTurnAirPortOnOff</key>
+			<true/>
+			<key>SleepDisabled</key>
+			<false/>
+			<key>dontAllowFDEDisable</key>
+			<true/>
+			<key>timeServer</key>
+			<string>nl.pool.ntp.org</string>
+			<key>timeZone</key>
+			<string>Europe/Amsterdam</string>
+		</dict>
+		<dict>
 			<key>DSDontWriteNetworkStores</key>
 			<true/>
 			<key>PayloadDisplayName</key>
@@ -673,7 +661,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1A27BD55-E033-42EA-B270-AFAED78605B3</string>
+	<string>40FF9CF7-C4F1-438E-B0C9-CF84708BCC57</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
