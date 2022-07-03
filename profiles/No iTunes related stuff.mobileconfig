@@ -12,26 +12,18 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>5C57989D-B914-4865-A039-06D45766D4B5</string>
+			<string>5E64AD36-8D60-49B4-8825-F5465FFB24CD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAddingGameCenterFriends</key>
-			<false/>
 			<key>allowBookstore</key>
 			<false/>
 			<key>allowBookstoreErotica</key>
 			<false/>
 			<key>allowExplicitContent</key>
 			<false/>
-			<key>allowMultiplayerGaming</key>
-			<false/>
 			<key>allowMusicService</key>
 			<false/>
-			<key>allowNews</key>
-			<false/>
 			<key>allowRadioService</key>
-			<false/>
-			<key>allowRemoteAppPairing</key>
 			<false/>
 			<key>allowiTunes</key>
 			<false/>
@@ -107,6 +99,24 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Media Sharing</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.preferences.sharing.SharingPrefsExtension.6CDAD3DE-F502-40DA-808E-B0E75971C501</string>
+			<key>PayloadType</key>
+			<string>com.apple.preferences.sharing.SharingPrefsExtension</string>
+			<key>PayloadUUID</key>
+			<string>6CDAD3DE-F502-40DA-808E-B0E75971C501</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>homeSharingUIStatus</key>
+			<integer>0</integer>
+			<key>legacySharingUIStatus</key>
+			<integer>0</integer>
+			<key>mediaSharingUIStatus</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Podcasts are exempt ¯\_(ツ)_/¯ </string>
@@ -119,7 +129,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>51B36274-DB17-4ED0-95C7-F3ADFBF0E271</string>
+	<string>E2C337C8-7E48-437E-AE18-6A3CB07A1BD3</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

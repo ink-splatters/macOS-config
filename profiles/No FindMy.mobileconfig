@@ -12,16 +12,12 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>A07E4858-45DD-4C63-8DBB-C842E73A416E</string>
+			<string>0B068E35-A3AE-416D-B53D-9515712972B5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowCloudFMM</key>
 			<false/>
 			<key>allowFindMyDevice</key>
-			<false/>
-			<key>allowFindMyFriends</key>
-			<false/>
-			<key>allowFindMyFriendsModification</key>
 			<false/>
 		</dict>
 		<dict>
@@ -48,8 +44,10 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>ADEB8B6F-817A-413A-A1D6-7E29C17C47C0</string>
+	<string>7B90286B-DF54-410E-9925-839FDED89941</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
 </dict>
 </plist>

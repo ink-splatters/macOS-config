@@ -90,18 +90,16 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>74D3953F-95B8-469B-8321-8E421111455D</string>
+			<string>796E0027-035A-42C0-8268-E233CF122A08</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirPrintiBeaconDiscovery</key>
 			<false/>
 			<key>allowApplePersonalizedAdvertising</key>
 			<false/>
-			<key>allowAutoUnlock</key>
+			<key>allowAssistant</key>
 			<false/>
 			<key>allowCloudBTMM</key>
-			<false/>
-			<key>allowCloudBackup</key>
 			<false/>
 			<key>allowCloudPrivateRelay</key>
 			<false/>
@@ -109,76 +107,40 @@
 			<false/>
 			<key>allowDiagnosticSubmission</key>
 			<false/>
-			<key>allowEnterpriseAppTrust</key>
-			<false/>
-			<key>allowEnterpriseBookBackup</key>
-			<false/>
-			<key>allowEnterpriseBookMetadataSync</key>
-			<false/>
-			<key>allowFindMyFriends</key>
-			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
 			<false/>
-			<key>allowManagedAppsCloudSync</key>
+			<key>allowMailPrivacyProtection</key>
+			<false/>
+			<key>allowNews</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
-			<key>allowPairedWatch</key>
-			<false/>
 			<key>allowPhotoStream</key>
-			<false/>
-			<key>allowRemoteAppPairing</key>
-			<false/>
-			<key>allowSharedDeviceTemporarySession</key>
 			<false/>
 			<key>allowSiriServerLogging</key>
 			<false/>
+			<key>allowSpotlightInternetResults</key>
+			<false/>
 			<key>allowVoiceDialing</key>
+			<false/>
+			<key>allowiTunesFileSharing</key>
 			<false/>
 			<key>enforcedFingerprintTimeout</key>
 			<integer>14440</integer>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
-			<key>forceAssistantProfanityFilter</key>
-			<false/>
 			<key>forceAutomaticDateAndTime</key>
 			<true/>
 			<key>forceEncryptedBackup</key>
 			<true/>
 			<key>forceLimitAdTracking</key>
 			<true/>
+			<key>forceOnDeviceOnlyDictation</key>
+			<true/>
+			<key>forceOnDeviceOnlyTranslation</key>
+			<true/>
 			<key>safariAcceptCookies</key>
 			<real>1</real>
-		</dict>
-		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Passcode</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.mobiledevice.passwordpolicy.0748F4B0-498F-48E3-952C-8CAD430E2730</string>
-			<key>PayloadType</key>
-			<string>com.apple.mobiledevice.passwordpolicy</string>
-			<key>PayloadUUID</key>
-			<string>0748F4B0-498F-48E3-952C-8CAD430E2730</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowSimple</key>
-			<false/>
-			<key>forcePIN</key>
-			<true/>
-			<key>maxFailedAttempts</key>
-			<integer>4</integer>
-			<key>maxGracePeriod</key>
-			<integer>0</integer>
-			<key>maxInactivity</key>
-			<integer>1</integer>
-			<key>minComplexChars</key>
-			<integer>1</integer>
-			<key>minLength</key>
-			<integer>15</integer>
-			<key>minutesUntilFailedLoginReset</key>
-			<integer>1</integer>
-			<key>requireAlphanumeric</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>PayloadDisplayName</key>
@@ -218,19 +180,19 @@
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
-			<string>3CC97CF9-1D9B-4800-B785-94DB9B14300D</string>
+			<string>490A8057-A20E-42A5-A00E-0C26B966D1C9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>launchanim</key>
 			<false/>
+			<key>launchanim-immutable</key>
+			<true/>
 			<key>magnify-immutable</key>
 			<true/>
 			<key>magsize-immutable</key>
 			<true/>
 			<key>mineffect</key>
-			<string>Genie Effect</string>
-			<key>mineffect-immutable</key>
-			<true/>
+			<string>Scale Effect</string>
 			<key>minimize-to-application</key>
 			<true/>
 			<key>minintoapp-immutable</key>
@@ -239,8 +201,6 @@
 			<string>bottom</string>
 			<key>show-recents</key>
 			<false/>
-			<key>size-immutable</key>
-			<true/>
 			<key>wvous-bl-corner</key>
 			<integer>10</integer>
 		</dict>
@@ -262,7 +222,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
-			<string>7C21B7F9-7300-4589-B461-074C79BCA62A</string>
+			<string>8644826E-C296-4F97-A415-A240E8562C8A</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitBurn</key>
@@ -321,53 +281,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>PayloadDisplayName</key>
-			<string>ShareKit</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.ShareKitHelper.5060735C-ABE3-4F0B-8DBE-DAA00462F78A</string>
-			<key>PayloadType</key>
-			<string>com.apple.ShareKitHelper</string>
-			<key>PayloadUUID</key>
-			<string>5060735C-ABE3-4F0B-8DBE-DAA00462F78A</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SHKDeniedShareServices</key>
-			<array>
-				<string>com.apple.share.Facebook</string>
-				<string>com.apple.share.LinkedIn.post</string>
-				<string>com.apple.share.Video</string>
-				<string>com.apple.share.SinaWeibo</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CheckGrammarWithSpelling</key>
-			<false/>
-			<key>CheckSpellingWhileTyping</key>
-			<false/>
-			<key>CorrectSpellingAutomatically</key>
-			<false/>
-			<key>IgnoreHTML</key>
-			<true/>
-			<key>IgnoreRichText</key>
-			<true/>
-			<key>NSDocumentSuppressTempVersionStoreWarning</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>TextEdit</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.TextEdit.62C27C67-D40A-4986-97E7-5F8D9FD7F51B</string>
-			<key>PayloadType</key>
-			<string>com.apple.TextEdit</string>
-			<key>PayloadUUID</key>
-			<string>79F6C550-747C-4391-84CD-ECE11BFE1FA3</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PlainTextEncodingForWrite</key>
-			<integer>4</integer>
-			<key>RichText</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
 			<key>AppleShowAllExtensions</key>
 			<true/>
 			<key>AppleShowScrollBars</key>
@@ -399,7 +312,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.SetupAssistant.managed</string>
 			<key>PayloadUUID</key>
-			<string>8A007E76-4D40-4C3D-972B-3E6844ED43E5</string>
+			<string>2CC6AC65-9306-4460-A629-9C1FF9554798</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SkipAccessibility</key>
@@ -408,7 +321,11 @@
 			<true/>
 			<key>SkipCloudSetup</key>
 			<true/>
+			<key>SkipPrivacySetup</key>
+			<true/>
 			<key>SkipScreenTime</key>
+			<true/>
+			<key>SkipSiriSetup</key>
 			<true/>
 			<key>SkipTrueTone</key>
 			<true/>
@@ -481,7 +398,7 @@
 			<key>LocalUsersHaveWorkgroups</key>
 			<true/>
 			<key>LoginwindowText</key>
-			<string>Welkom... of niet...</string>
+			<string>if lost, return back to the basics, my son!..</string>
 			<key>PayloadDisplayName</key>
 			<string>Loginwindow</string>
 			<key>PayloadIdentifier</key>
@@ -489,7 +406,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
-			<string>1E753F73-E016-4CE6-8B60-10BA3F50E319</string>
+			<string>69BC854E-EAB3-40D3-880C-F299CBBB24DF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RetriesUntilHint</key>
@@ -512,38 +429,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>AllowCacheDelete</key>
-			<false/>
-			<key>AllowImports</key>
-			<false/>
-			<key>AllowPersonalCaching</key>
-			<false/>
-			<key>AllowSharedCaching</key>
-			<false/>
-			<key>AllowWirelessPortable</key>
-			<false/>
-			<key>AutoActivation</key>
-			<false/>
-			<key>CacheLimit</key>
-			<integer>1</integer>
-			<key>ListenWithPeersAndParents</key>
-			<false/>
-			<key>MaxConcurrentClients</key>
-			<integer>0</integer>
-			<key>PayloadDisplayName</key>
-			<string>Content Caching</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.AssetCache.managed.9849EB55-6729-445D-A34E-2CAE92FADF24</string>
-			<key>PayloadType</key>
-			<string>com.apple.AssetCache.managed</string>
-			<key>PayloadUUID</key>
-			<string>1D2A915B-31DA-4549-B08F-523A205839D7</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PersonalCacheLimit</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>PayloadDisplayName</key>
 			<string>The Unarchiver (Standalone)</string>
 			<key>PayloadIdentifier</key>
@@ -551,11 +436,17 @@
 			<key>PayloadType</key>
 			<string>com.macpaw.site.theunarchiver</string>
 			<key>PayloadUUID</key>
-			<string>2F26F716-31B7-4BA5-9717-E49A43C18CAB</string>
+			<string>905DA4A4-B761-4496-82B4-140822BC89DE</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key>SUEnableAutomaticChecks</key>
+			<true/>
+			<key>userAgreedToNewTOSAndPrivacy</key>
+			<true/>
 		</dict>
 		<dict>
+			<key>OnboardingUserViewedWelcomeSlide</key>
+			<true/>
 			<key>PayloadDisplayName</key>
 			<string>The Unarchiver (Mac App Store)</string>
 			<key>PayloadIdentifier</key>
@@ -563,21 +454,7 @@
 			<key>PayloadType</key>
 			<string>cx.c3.theunarchiver</string>
 			<key>PayloadUUID</key>
-			<string>919DF8DA-688C-4B41-817D-A32A32B26695</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>DisablePythonAlert</key>
-			<true/>
-			<key>PayloadDisplayName</key>
-			<string>Python</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.python.4FB5B436-FB2F-451C-BCE3-83FD715CD7C0</string>
-			<key>PayloadType</key>
-			<string>com.apple.python</string>
-			<key>PayloadUUID</key>
-			<string>4FB5B436-FB2F-451C-BCE3-83FD715CD7C0</string>
+			<string>13B875DE-2FDD-42BD-8E14-6D1957824E2B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -617,7 +494,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.MCX</string>
 			<key>PayloadUUID</key>
-			<string>E8D31719-9154-47D2-951D-5A5D3E2742D7</string>
+			<string>098184EF-0E02-415A-96F1-4490A4A31026</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>RequireAdminForAirPortNetworkChange</key>
@@ -628,6 +505,11 @@
 			<true/>
 			<key>SleepDisabled</key>
 			<false/>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Wake On LAN</key>
+				<integer>1</integer>
+			</dict>
 			<key>dontAllowFDEDisable</key>
 			<true/>
 			<key>timeServer</key>
@@ -636,16 +518,66 @@
 			<string>Europe/Amsterdam</string>
 		</dict>
 		<dict>
+			<key>CheckGrammarWithSpelling</key>
+			<false/>
+			<key>CheckSpellingWhileTyping</key>
+			<false/>
+			<key>CorrectSpellingAutomatically</key>
+			<false/>
+			<key>DataDetectors</key>
+			<false/>
+			<key>HTMLEncoding</key>
+			<integer>4</integer>
+			<key>IgnoreHTML</key>
+			<true/>
+			<key>IgnoreRichText</key>
+			<true/>
+			<key>NSDocumentSuppressTempVersionStoreWarning</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>TextEdit</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.TextEdit.9530CA29-3CE0-4BA0-80C8-A8306B374A00</string>
+			<key>PayloadType</key>
+			<string>com.apple.TextEdit</string>
+			<key>PayloadUUID</key>
+			<string>AA3423DF-72A1-450B-84E6-FE360C204FB6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PlainTextEncodingForWrite</key>
+			<integer>4</integer>
+			<key>RichText</key>
+			<integer>0</integer>
+			<key>ShowPageBreaks</key>
+			<false/>
+			<key>ShowRuler</key>
+			<false/>
+			<key>SmartCopyPaste</key>
+			<false/>
+			<key>SmartLinks</key>
+			<false/>
+			<key>SmartQuotes</key>
+			<false/>
+			<key>SmartSubstitutionsEnabledInRichTextOnly</key>
+			<true/>
+			<key>TextReplacement</key>
+			<false/>
+			<key>UseEmbeddedCSS</key>
+			<true/>
+			<key>UseInlineCSS</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>DSDontWriteNetworkStores</key>
 			<true/>
 			<key>PayloadDisplayName</key>
 			<string>Desktop Services</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.desktopservices.E8DAF205-D957-4D8E-AB99-307FB4BF0B89</string>
+			<string>com.apple.desktopservices.F66AD4B5-0DFE-424A-86C6-300A6F9AE0B3</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>E8DAF205-D957-4D8E-AB99-307FB4BF0B89</string>
+			<string>F66AD4B5-0DFE-424A-86C6-300A6F9AE0B3</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -661,7 +593,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>40FF9CF7-C4F1-438E-B0C9-CF84708BCC57</string>
+	<string>F06C7318-0795-45CF-A900-95893C3FCF9C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

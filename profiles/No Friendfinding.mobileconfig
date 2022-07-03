@@ -8,29 +8,29 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.72BA08E3-627F-453A-870C-06510343C27D</string>
+			<string>com.apple.applicationaccess.BD9D5977-8638-443A-A2FB-9FEC4B8C9B8B</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>72BA08E3-627F-453A-870C-06510343C27D</string>
+			<string>BD9D5977-8638-443A-A2FB-9FEC4B8C9B8B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowActivityContinuation</key>
+			<key>allowFindMyFriends</key>
+			<false/>
+			<key>allowFindMyFriendsModification</key>
 			<false/>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Disables HandOff features</string>
 	<key>PayloadDisplayName</key>
-	<string>No Handoff</string>
+	<string>No Friendfinding!</string>
 	<key>PayloadIdentifier</key>
-	<string>no-handoff.FE12A6EC-28B9-45D6-9596-938534B7B1C9</string>
+	<string>no-friendfinding.54B6392B-48BD-44EA-88E1-0388AB221AC3</string>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>3F0566B2-EC4F-4207-B3BB-34E1C54D3ED0</string>
+	<string>B10AAD10-5E52-403D-A295-E4982D40196D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

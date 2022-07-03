@@ -12,7 +12,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>5E1E33E2-8E01-479B-8469-E4D415A22162</string>
+			<string>6F7C69EA-0792-421E-AE75-1ED9C6D26938</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowActivityContinuation</key>
@@ -31,10 +31,6 @@
 			<false/>
 			<key>allowRemoteAppPairing</key>
 			<false/>
-			<key>allowSharedDeviceTemporarySession</key>
-			<false/>
-			<key>allowVoiceDialing</key>
-			<false/>
 			<key>forceAirPrintTrustedTLSRequirement</key>
 			<true/>
 		</dict>
@@ -48,7 +44,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>03EB44C3-BD57-4704-AA70-6F22FBE1EE7F</string>
+	<string>256AD627-4D56-4524-A729-FE5FFCFA00FD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

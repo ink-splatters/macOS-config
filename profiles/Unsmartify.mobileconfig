@@ -12,7 +12,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>0F70D77F-06DF-4E38-A2DC-3D35DFF26B63</string>
+			<string>609A63CD-0D72-4057-82D3-5FB877C01775</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAssistant</key>
@@ -36,13 +36,15 @@
 			<key>PayloadType</key>
 			<string>com.apple.assistant.support</string>
 			<key>PayloadUUID</key>
-			<string>58072014-4DE5-4551-8FC5-BB73F0A9DC0C</string>
+			<string>56879543-6E36-46F9-BD3B-3B84EEFE6162</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Siri Data Sharing Opt-In Status</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>Assistant Allowed</key>
+			<false/>
 			<key>Ironwood Allowed</key>
 			<false/>
 			<key>PayloadDisplayName</key>
@@ -52,7 +54,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.ironwood.support</string>
 			<key>PayloadUUID</key>
-			<string>039A8189-A6CF-49E8-9825-07E8B92DBDF2</string>
+			<string>E8B54542-87BD-44E0-BBCE-AFFA74E115CF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -68,7 +70,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>EDF9F52D-FC5A-43C9-BD5B-46D4C868AA53</string>
+	<string>D99618A7-694E-4355-AA06-8B2B23AF4130</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

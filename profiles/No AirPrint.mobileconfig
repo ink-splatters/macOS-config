@@ -12,7 +12,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>FEF16D88-959C-46F4-8960-666045A5B2EC</string>
+			<string>A548C63B-BC12-4281-B9EF-048FF1034F6E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAirPrint</key>
@@ -30,7 +30,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>982CA38E-2D18-48F2-961A-5F04659D6215</string>
+	<string>E908501B-683A-43C3-8DD8-429041440899</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
