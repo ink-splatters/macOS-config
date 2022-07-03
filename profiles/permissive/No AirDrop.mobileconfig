@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.453F2DD6-4D96-4827-98EC-2AC4A37F9B59</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>D261D974-967A-49E6-AA27-3A31F334944D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirDrop</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>DisableAirDrop</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.NetworkBrowser.B050E67E-DA0F-4DBC-944D-7D6F8E8D9F76</string>
+			<key>PayloadType</key>
+			<string>com.apple.NetworkBrowser</string>
+			<key>PayloadUUID</key>
+			<string>325C52A0-48DE-44C0-B319-8A46BCDFDB73</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DiscoverableMode</key>
+			<string>Off</string>
+			<key>PayloadDisplayName</key>
+			<string>AirDrop</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.sharingd.C940B6BC-967A-4C6A-B40B-F9D69F29186F</string>
+			<key>PayloadType</key>
+			<string>com.apple.sharingd</string>
+			<key>PayloadUUID</key>
+			<string>C940B6BC-967A-4C6A-B40B-F9D69F29186F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>No AirDrop</string>
+	<key>PayloadDisplayName</key>
+	<string>No Air Drop</string>
+	<key>PayloadIdentifier</key>
+	<string>no-airdrop.32827E2A-E471-4DF7-B334-23D2A3BCE520</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>7D72E1D7-2BC5-4CE9-8748-431D5EF3AD9A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+</dict>
+</plist>

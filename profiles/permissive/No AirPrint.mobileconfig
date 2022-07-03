@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.453F2DD6-4D96-4827-98EC-2AC4A37F9B59</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>FEF16D88-959C-46F4-8960-666045A5B2EC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAirPrint</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>No AirPrint</string>
+	<key>PayloadDisplayName</key>
+	<string>No AirPrint</string>
+	<key>PayloadIdentifier</key>
+	<string>no-airprint.63AEFE02-44CC-4B1E-B4C5-F6D16C159573</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>982CA38E-2D18-48F2-961A-5F04659D6215</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+</dict>
+</plist>
