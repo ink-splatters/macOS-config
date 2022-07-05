@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.3E30EEE4-D6DC-4417-99F7-4FF5F2F0C475</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>AEA67FF4-4724-4ED0-B3EF-6693CA852117</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowBookstore</key>
+			<false/>
+			<key>allowMusicService</key>
+			<false/>
+			<key>allowRadioService</key>
+			<false/>
+			<key>allowiTunes</key>
+			<false/>
+			<key>allowiTunesFileSharing</key>
+			<false/>
+			<key>ratingMovies</key>
+			<integer>0</integer>
+			<key>ratingTVShows</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Podcasts are exempt ¯\_(ツ)_/¯ </string>
+	<key>PayloadDisplayName</key>
+	<string>No iTunes related stuff iOS</string>
+	<key>PayloadIdentifier</key>
+	<string>no-itunes-ios.50146F21-E981-49D2-BB86-1F1518D3A279</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E80FF56B-64CE-4D96-81DE-EB66A9C680F3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>

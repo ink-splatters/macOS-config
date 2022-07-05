@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.16712C14-75EE-4365-B2FF-E78EDE9FA154</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>16712C14-75EE-4365-B2FF-E78EDE9FA154</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxGracePeriod</key>
+			<integer>0</integer>
+			<key>minLength</key>
+			<integer>6</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Passcode Restrictions iOS</string>
+	<key>PayloadIdentifier</key>
+	<string>passcode-ios.EF494C64-1F14-47DF-906B-14ADF56E2767</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>26D36D41-DFF7-4611-A36F-F4D5B51B1E4B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.4A957046-1263-412E-B58E-76898253FA3A</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>757F987B-5728-4A02-AE9A-F0BF25ECC2CD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
+			<key>allowDefinitionLookup</key>
+			<false/>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowGlobalBackgroundFetchWhenRoaming</key>
+			<false/>
+			<key>allowLockScreenTodayView</key>
+			<false/>
+			<key>allowMailPrivacyProtection</key>
+			<false/>
+			<key>allowOTAPKIUpdates</key>
+			<false/>
+			<key>allowOpenFromManagedToUnmanaged</key>
+			<false/>
+			<key>allowOpenFromUnmanagedToManaged</key>
+			<false/>
+			<key>allowSharedDeviceTemporarySession</key>
+			<false/>
+			<key>allowUnpairedExternalBootToRecovery</key>
+			<true/>
+			<key>allowVoiceDialing</key>
+			<false/>
+			<key>forceAutomaticDateAndTime</key>
+			<true/>
+			<key>forceEncryptedBackup</key>
+			<true/>
+			<key>forceLimitAdTracking</key>
+			<true/>
+			<key>forceOnDeviceOnlyDictation</key>
+			<true/>
+			<key>forceOnDeviceOnlyTranslation</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Basic Restrictions iOS</string>
+	<key>PayloadIdentifier</key>
+	<string>basics-ios.D193AC8B-C9D0-4022-923F-4C16DB8B4069</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2391A53F-FC29-46EB-B7EC-A0FB53C27B69</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.BD9D5977-8638-443A-A2FB-9FEC4B8C9B8B</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>BD9D5977-8638-443A-A2FB-9FEC4B8C9B8B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowFindMyFriends</key>
+			<false/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Heyyya, no friendfinding allowed in da hall!!!</string>
+	<key>PayloadDisplayName</key>
+	<string>No Friendfinding!</string>
+	<key>PayloadIdentifier</key>
+	<string>no-friendfinding.54B6392B-48BD-44EA-88E1-0388AB221AC3</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8ADADEDD-E0C2-42ED-AED9-59B138095802</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>9999-12-12T16:01:07Z</date>
+</dict>
+</plist>
