@@ -14,11 +14,6 @@ these and more of them contain highly sensitive user data.
 TODO: implement
 
  
-`vanish-and-lock.sh [--undo] <paths list>`
-
-- deletes all the data in the specified paths 
-- locks them using `chflags -R uchg` and `chflags -R schg` or unlocks using `chflags -R nouchg` and `chflags -R noschg`, if `--undo` flag is passed
-
 ## Clearner scripts
 
 TODO: verify, describe
