@@ -12,19 +12,25 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>609A63CD-0D72-4057-82D3-5FB877C01775</string>
+			<string>CB96C4E0-CAC7-46C0-861F-E1388625F47C</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAssistant</key>
 			<false/>
+			<key>allowAutoCorrection</key>
+			<false/>
+			<key>allowDefinitionLookup</key>
+			<false/>
+			<key>allowDictation</key>
+			<false/>
+			<key>allowPredictiveKeyboard</key>
+			<false/>
 			<key>allowSiriServerLogging</key>
+			<false/>
+			<key>allowSpellCheck</key>
 			<false/>
 			<key>allowSpotlightInternetResults</key>
 			<false/>
-			<key>forceOnDeviceOnlyDictation</key>
-			<true/>
-			<key>forceOnDeviceOnlyTranslation</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>Assistant Enabled</key>
@@ -70,7 +76,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1B3ADAD9-412F-40B4-AF4B-C74879C45D83</string>
+	<string>04384A52-1681-40F6-A532-4BA31DA85C44</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

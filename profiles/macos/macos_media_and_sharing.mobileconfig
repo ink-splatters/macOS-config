@@ -12,14 +12,10 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>5E64AD36-8D60-49B4-8825-F5465FFB24CD</string>
+			<string>9C6BBCB6-A7D6-4AB6-8773-3FDF05562624</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowBookstore</key>
-			<false/>
-			<key>allowBookstoreErotica</key>
-			<false/>
-			<key>allowExplicitContent</key>
 			<false/>
 			<key>allowMusicService</key>
 			<false/>
@@ -29,10 +25,6 @@
 			<false/>
 			<key>allowiTunesFileSharing</key>
 			<false/>
-			<key>ratingMovies</key>
-			<integer>0</integer>
-			<key>ratingTVShows</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>DisableDeviceBackups</key>
@@ -44,13 +36,13 @@
 			<key>PayloadType</key>
 			<string>com.apple.iTunes</string>
 			<key>PayloadUUID</key>
-			<string>6469077A-57A7-42A9-AF7A-8BDD1560A82D</string>
+			<string>0913FB7A-1511-4CE4-9944-2BD94D54C900</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>disableAppleMusic</key>
-			<true/>
+			<false/>
 			<key>disableCheckForUpdates</key>
-			<true/>
+			<false/>
 			<key>disableMusicSocial</key>
 			<true/>
 			<key>disableMusicStore</key>
@@ -71,15 +63,15 @@
 				<true/>
 			</dict>
 			<key>restrictExplicit</key>
-			<true/>
+			<false/>
 			<key>restrictExplicitBooks</key>
-			<true/>
+			<false/>
 			<key>restrictGames</key>
-			<true/>
+			<false/>
 			<key>restrictMovies</key>
-			<true/>
+			<false/>
 			<key>restrictTVShows</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>BKAlreadyDisplayedGDPRWelcomeExperience</key>
@@ -118,8 +110,6 @@
 			<integer>0</integer>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Podcasts are exempt ¯\_(ツ)_/¯ </string>
 	<key>PayloadDisplayName</key>
 	<string>No iTunes related stuff</string>
 	<key>PayloadIdentifier</key>
@@ -129,7 +119,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C29BC192-0A89-4846-BFF3-B876031361D9</string>
+	<string>19803F46-6E7C-4A3C-B7A6-A60DC1A1B964</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>

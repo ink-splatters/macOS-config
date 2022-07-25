@@ -12,11 +12,9 @@
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>6F7C69EA-0792-421E-AE75-1ED9C6D26938</string>
+			<string>8B6147DD-B0CB-4671-AE74-615B39BAA93F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowActivityContinuation</key>
-			<false/>
 			<key>allowAirPrintiBeaconDiscovery</key>
 			<false/>
 			<key>allowAutoUnlock</key>
@@ -44,7 +42,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6A0225B3-4887-477F-9FC5-7375413E9ED8</string>
+	<string>2603AA51-3F17-4776-93C2-8D3EE4B20A04</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>RemovalDate</key>
